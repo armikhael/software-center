@@ -1,4 +1,4 @@
-software-center (2.0.7debian7) unstable; urgency=low
+software-center (2.0.8-1canaima1) stable; urgency=low
 
   * po: Fix cases where the translation of 'Software Center' contains
     'Ubuntu', and replace all mentions of 'Ubuntu' in the translations
