@@ -1,5 +1,6 @@
 software-center (2.0.8-1canaima1) stable; urgency=low
 
+  [ Julian Andres Klode ]
   * po: Fix cases where the translation of 'Software Center' contains
     'Ubuntu', and replace all mentions of 'Ubuntu' in the translations
     of 'Provided by Debian' by 'Debian' (and unfuzzy them).
@@ -7,7 +8,10 @@ software-center (2.0.8-1canaima1) stable; urgency=low
   * Bring back license information by removing a hard-coded Ubuntu check,
     Closes: #603782
 
- -- Julian Andres Klode <jak@debian.org>  Wed, 24 Nov 2010 17:37:20 +0100
+  [ Luis Alejandro Martínez Faneyth ]
+  * [39149bb] Actualizando archivo de versiones
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 28 Dec 2011 16:14:25 -0430
 
 software-center (2.0.7debian6) unstable; urgency=low
 
