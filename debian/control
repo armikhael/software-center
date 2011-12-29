@@ -44,7 +44,7 @@ Conflicts: software-store, gnome-app-install (<< 1)
 Replaces: software-store, gnome-app-install
 Provides: software-store, gnome-app-install
 XB-Python-Version: ${python:Versions}
-Description: Utilidad para buscar, instalar y eliminar aplicaciones.
+Description: Utilidad para buscar, instalar y eliminar aplicaciones en Canaima
  El Centro de Software Canaima te permite navegar e instalar miles de
  aplicaciones. Puedes ver las aplicaciones libres por categoria, o
  hacer una busqueda rápida por nombre o descripción. También puede
