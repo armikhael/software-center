@@ -112,5 +112,5 @@ Index: software-center-2.0.7debian7/softwarecenter/distro/Canaima.py
 +    cache = apt.Cache()
 +    print c.get_maintenance_status(cache, "synaptic app", "synaptic", "main", None)
 +    print c.get_maintenance_status(cache, "3dchess app", "3dchess", "universe", None)
-+                                                                                                                                                                                         109,1       Final
++
 +
