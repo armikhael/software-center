@@ -1,8 +1,9 @@
 software-center (2.0.8-1canaima2) stable; urgency=low
 
   * [0bf7353] Corrección de detalles
+  * [30a6584] Cambiando versión en softwarecenter/version.py
 
- -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 28 Dec 2011 21:27:12 -0430
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 28 Dec 2011 21:29:04 -0430
 
 software-center (2.0.8-1canaima1) stable; urgency=low
 
