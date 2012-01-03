@@ -1,8 +1,9 @@
 software-center (2.0.8-1canaima3) stable; urgency=low
 
   * [a528312] añadiendo parche para modificar el idioma del desktop
+  * [59bdafb] añadiendo parche para modificar el idioma del desktop
 
- -- Randy Ortega <ortega571@gmail.com>  Tue, 03 Jan 2012 14:03:01 -0430
+ -- Randy Ortega <ortega571@gmail.com>  Tue, 03 Jan 2012 14:03:22 -0430
 
 software-center (2.0.8-1canaima2) stable; urgency=low
 
