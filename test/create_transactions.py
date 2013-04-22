@@ -1,13 +1,11 @@
 #!/usr/bin/python
 
-import glib
-import logging
+from gi.repository import GObject
+
 import time
 
 from aptdaemon.client import AptClient
-from aptdaemon.gtkwidgets import (AptErrorDialog, 
-                                  AptProgressDialog, 
-                                  AptMessageDialog)
+from aptdaemon.gtkwidgets import AptProgressDialog
 
 # run with terminal and progress
 WITH_GUI=True
@@ -31,7 +29,7 @@ def run(t):
 if __name__ == "__main__":
     #logging.basicConfig(level=logging.DEBUG)
 
-    context = glib.main_context_default()
+    context = GObject.main_context_default()
     c = AptClient()
     for i in range(100):
         

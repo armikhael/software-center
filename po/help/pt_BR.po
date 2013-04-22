@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: software-center-doc\n"
-"POT-Creation-Date: 2010-11-21 21:31+0100\n"
+"POT-Creation-Date: 2011-11-20 14:04+0100\n"
 "PO-Revision-Date: 2010-11-22 17:08-0300\n"
 "Last-Translator: Sérgio Cipolla <secipolla@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <<pt_BR@li.org>>\n"
@@ -136,9 +136,13 @@ msgstr ""
 
 #. type: Content of: <book><chapter><para>
 #: help/C/software-center.xml:77
+#, fuzzy
+#| msgid ""
+#| "The Center also lets you examine the software installed on the computer "
+#| "already, and remove anything you no longer need."
 msgid ""
-"The Center also lets you examine the software installed on the computer "
-"already, and remove anything you no longer need."
+"You can also examine which software is installed on the computer already, "
+"and remove anything you no longer need."
 msgstr ""
 "A Central ainda permite-lhe examinar os aplicativos já instalados no "
 "computador e remover qualquer coisa de que você não mais necessite."
@@ -223,47 +227,39 @@ msgstr "Usando um aplicativo após a sua instalação"
 
 #. type: Content of: <book><chapter><para>
 #: help/C/software-center.xml:132
+#, fuzzy
+#| msgid ""
+#| "Utilities for changing settings may appear inside "
+#| "<menuchoice><guimenu>System</guimenu> <guisubmenu>Preferences</"
+#| "guisubmenu></menuchoice> or <menuchoice><guimenu>System</guimenu> "
+#| "<guisubmenu>Administration</guisubmenu></menuchoice>."
 msgid ""
-"Most installed applications appear in the <guimenu>Applications</guimenu> "
-"menu in the corner of the screen, in the same category as they came from in "
-"the Software Center."
-msgstr ""
-"A maioria dos aplicativos instalados aparece no menu <guimenu>Aplicativos</"
-"guimenu> no canto superior esquerdo da tela, na mesma categoria da qual eles "
-"vieram da Central de Aplicativos."
-
-#. type: Content of: <book><chapter><para>
-#: help/C/software-center.xml:137
-msgid ""
-"For example, if you installed a program from the <guilabel>Office</guilabel> "
-"department, it will appear inside <menuchoice><guimenu>Applications</"
-"guimenu> <guisubmenu>Office</guisubmenu></menuchoice>."
-msgstr ""
-"Por exemplo, se você instalou um aplicativo do departamento "
-"<guilabel>Escritório</guilabel>, ele aparecerá em "
-"<menuchoice><guimenu>Aplicativos</guimenu> <guisubmenu>Escritório</"
-"guisubmenu></menuchoice>."
-
-#. type: Content of: <book><chapter><para>
-#: help/C/software-center.xml:143
-msgid ""
-"Utilities for changing settings may appear inside "
-"<menuchoice><guimenu>System</guimenu> <guisubmenu>Preferences</guisubmenu></"
-"menuchoice> or <menuchoice><guimenu>System</guimenu> "
-"<guisubmenu>Administration</guisubmenu></menuchoice>."
+"For most programs, once they are installed, you can launch them from the "
+"<guimenu>Applications</guimenu> menu.  (Utilities for changing settings may "
+"appear inside <menuchoice><guimenu>System</guimenu> <guisubmenu>Preferences</"
+"guisubmenu></menuchoice> or <menuchoice><guimenu>System</guimenu> "
+"<guisubmenu>Administration</guisubmenu></menuchoice> instead)."
 msgstr ""
 "Utilitários para modificar preferências podem aparecer em "
 "<menuchoice><guimenu>Sistema</guimenu> <guisubmenu>Preferências</"
 "guisubmenu></menuchoice> ou <menuchoice><guimenu>Sistema</guimenu> "
 "<guisubmenu>Administração</guisubmenu></menuchoice>."
 
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:141
+msgid ""
+"To find out where to launch a new program, navigate to the screen for that "
+"program Software Center, if it is not still being displayed.  The menu "
+"location should be displayed on that screen, below the colored bar."
+msgstr ""
+
 #. type: Content of: <book><chapter><title>
-#: help/C/software-center.xml:151
+#: help/C/software-center.xml:149
 msgid "Removing software"
 msgstr "Removendo aplicativos"
 
 #. type: Content of: <book><chapter><para>
-#: help/C/software-center.xml:153
+#: help/C/software-center.xml:151
 msgid ""
 "To remove software, you need administrator access.  (If you set up the "
 "operating system on this computer yourself, you have administrator access "
@@ -274,7 +270,7 @@ msgstr ""
 "acesso à conta de administrador automaticamente.)"
 
 #. type: Content of: <book><chapter><orderedlist><listitem><para>
-#: help/C/software-center.xml:160
+#: help/C/software-center.xml:158
 msgid ""
 "In the <guilabel>Installed Software</guilabel> section, find the item you "
 "want to remove."
@@ -283,7 +279,7 @@ msgstr ""
 "quer remover."
 
 #. type: Content of: <book><chapter><orderedlist><listitem><para>
-#: help/C/software-center.xml:166
+#: help/C/software-center.xml:164
 msgid ""
 "Select the item in the list, and choose <guilabel>Remove</guilabel>.  You "
 "may need to enter the administrative password."
@@ -292,7 +288,7 @@ msgstr ""
 "que você precise digitar a senha de administrador."
 
 #. type: Content of: <book><chapter><para>
-#: help/C/software-center.xml:172
+#: help/C/software-center.xml:170
 msgid ""
 "If a program is open when you remove it, usually it will stay open even "
 "after it is removed.  As soon as you close it, it will no longer be "
@@ -303,39 +299,47 @@ msgstr ""
 "estará mais disponível."
 
 #. type: Content of: <book><chapter><itemizedlist><listitem><para>
-#: help/C/software-center.xml:177
+#: help/C/software-center.xml:175
 msgid "<xref linkend=\"metapackages\" endterm=\"metapackages-title\"/>"
 msgstr "<xref linkend=\"metapackages\" endterm=\"metapackages-title\"/>"
 
 #. type: Content of: <book><chapter><title>
-#: help/C/software-center.xml:182
+#: help/C/software-center.xml:180
 msgid "Why is it asking me to remove several programs together?"
 msgstr ""
 "Porque ele está me dizendo que deve remover vários aplicativos ao mesmo "
 "tempo?"
 
 #. type: Content of: <book><chapter><para>
-#: help/C/software-center.xml:184
+#: help/C/software-center.xml:182
+#, fuzzy
+#| msgid ""
+#| "Sometimes if you try to remove one item, the Software Center will warn "
+#| "you that other items will be removed too.  There are two main reasons "
+#| "this happens."
 msgid ""
-"Sometimes if you try to remove one item, the Software Center will warn you "
-"that other items will be removed too.  There are two main reasons this "
-"happens."
+"Sometimes if you try to remove one item, Software Center will warn you that "
+"other items will be removed too.  There are two main reasons this happens."
 msgstr ""
 "Algumas vezes se você tenta remover um item, a Central de Aplicativos vai "
 "lhe avisar que outros itens também serão removidos.  Há duas razões "
 "principais para que isso aconteça."
 
 #. type: Content of: <book><chapter><itemizedlist><listitem><para>
-#: help/C/software-center.xml:191
+#: help/C/software-center.xml:189
+#, fuzzy
+#| msgid ""
+#| "If you remove an application, any add-ons or accessories for that "
+#| "application usually will be removed too."
 msgid ""
-"If you remove an application, any add-ons or accessories for that "
-"application usually will be removed too."
+"If you remove an application, any add-ons or plugins for that application "
+"usually will be removed too."
 msgstr ""
 "Se você remove um aplicativo, quaisquer complementos ou acessórios para "
 "aquele aplicativo também serão removidos."
 
 #. type: Content of: <book><chapter><itemizedlist><listitem><para>
-#: help/C/software-center.xml:197
+#: help/C/software-center.xml:195
 msgid ""
 "Multiple applications are sometimes provided as a single package.  If any of "
 "them are installed, all of them are installed.  And if any of them are "
@@ -348,7 +352,7 @@ msgstr ""
 "pois não possui instruções sobre como separá-los."
 
 #. type: Content of: <book><chapter><para>
-#: help/C/software-center.xml:206
+#: help/C/software-center.xml:204
 msgid ""
 "You can use the <guilabel>Main Menu</guilabel> settings to hide unwanted "
 "items without removing them from the computer.  In GNOME, you can find "
@@ -362,7 +366,7 @@ msgstr ""
 "guisubmenu></menuchoice>"
 
 #. type: Content of: <book><chapter><itemizedlist><listitem><para>
-#: help/C/software-center.xml:214
+#: help/C/software-center.xml:212
 msgid ""
 "<ulink url=\"ghelp:user-guide?menu-editor\" >Customizing the menu bar</ulink>"
 msgstr ""
@@ -370,36 +374,12 @@ msgstr ""
 "ulink>"
 
 #. type: Content of: <book><chapter><title>
-#: help/C/software-center.xml:246
-msgid "Why are all the programs free?"
-msgstr "Porque todos os aplicativos são grátis?"
-
-#. type: Content of: <book><chapter><para>
-#: help/C/software-center.xml:248
-msgid "Currently, all software in Software Center is free of charge."
-msgstr "Atualmente todos os aplicativos na Central de Aplicativos são grátis."
-
-#. type: Content of: <book><chapter><para>
-#: help/C/software-center.xml:251
-msgid ""
-"Most of this software is developed as <firstterm>open source</firstterm>, "
-"which means anyone is allowed to alter it and redistribute it for any "
-"price.  Ubuntu developers, Debian developers, and others package the "
-"software available in Software Center, and make it available to you for free."
-msgstr ""
-"A maioria desses aplicativos é desenvolvida com o <firstterm>código aberto</"
-"firstterm>, o que significa que qualquer pessoa pode alterá-los e "
-"redistribuí-los por qualquer preço.  Os desenvolvedores do Ubuntu, do Debian "
-"e outros empacotam os aplicativos disponíveis na Central de Aplicativos e "
-"tornam-nos disponíveis para você gratuitamente."
-
-#. type: Content of: <book><chapter><title>
-#: help/C/software-center.xml:261
+#: help/C/software-center.xml:281
 msgid "What if a program I want isn&#8217;t available?"
 msgstr "E se um aplicativo que eu quiser não estiver disponível?"
 
 #. type: Content of: <book><chapter><para>
-#: help/C/software-center.xml:263
+#: help/C/software-center.xml:283
 msgid ""
 "First, check that <menuchoice><guimenu>View</guimenu> <guimenuitem>All "
 "Software</guimenuitem></menuchoice> is selected."
@@ -409,7 +389,7 @@ msgstr ""
 "selecionado."
 
 #. type: Content of: <book><chapter><para>
-#: help/C/software-center.xml:267
+#: help/C/software-center.xml:287
 msgid ""
 "If the software you want still isn&#8217;t there, but you know that it runs "
 "on this operating system, try contacting the original developers of the "
@@ -421,7 +401,7 @@ msgstr ""
 "disponível."
 
 #. type: Content of: <book><chapter><para>
-#: help/C/software-center.xml:273
+#: help/C/software-center.xml:293
 msgid ""
 "If a program is available for other operating systems but not for this one, "
 "let the developers know that you&#8217;re interested in running it on this "
@@ -432,12 +412,12 @@ msgstr ""
 "está interessado em usá-lo neste sistema operacional."
 
 #. type: Content of: <book><chapter><title>
-#: help/C/software-center.xml:280
+#: help/C/software-center.xml:300
 msgid "What if a program doesn&#8217;t work?"
 msgstr "E se um aplicativo não funcionar?"
 
 #. type: Content of: <book><chapter><para>
-#: help/C/software-center.xml:282
+#: help/C/software-center.xml:302
 msgid ""
 "With tens of thousands of programs in Software Center, there&#8217;s always "
 "the chance that a few of them won&#8217;t work properly on your computer."
@@ -446,7 +426,7 @@ msgstr ""
 "uma chance de que alguns não funcionem bem no seu computador."
 
 #. type: Content of: <book><chapter><para>
-#: help/C/software-center.xml:287
+#: help/C/software-center.xml:307
 msgid ""
 "If you are familiar with reporting bugs in software, you can help out by "
 "reporting the problem to the developers, see <ulink url=\"http://www.debian."
@@ -463,15 +443,20 @@ msgstr ""
 "relatar o erro em outro lugar."
 
 #. type: Content of: <book><chapter><para>
-#: help/C/software-center.xml:296
+#: help/C/software-center.xml:316
+#, fuzzy
+#| msgid ""
+#| "Otherwise, look through the Center for another program to do what you "
+#| "want."
 msgid ""
-"Otherwise, look through the Center for another program to do what you want."
+"Otherwise, look through Software Center for another program to do what you "
+"want."
 msgstr ""
 "Ou então procure na Central por algum outro aplicativo que faça o que você "
 "quer."
 
 #. type: Content of: <book><chapter><itemizedlist><listitem><para>
-#: help/C/software-center.xml:299
+#: help/C/software-center.xml:320
 msgid "<xref linkend=\"removing\" endterm=\"removing-title\"/>"
 msgstr "<xref linkend=\"removing\" endterm=\"removing-title\"/>"
 
@@ -597,6 +582,46 @@ msgstr "Como gerenciar aplicativos no seu sistema"
 #: help/C/software-center-C.omf:19
 msgid "<type> user's guide </type>"
 msgstr "<type> guia do usuário </type>"
+
+#~ msgid ""
+#~ "Most installed applications appear in the <guimenu>Applications</guimenu> "
+#~ "menu in the corner of the screen, in the same category as they came from "
+#~ "in the Software Center."
+#~ msgstr ""
+#~ "A maioria dos aplicativos instalados aparece no menu "
+#~ "<guimenu>Aplicativos</guimenu> no canto superior esquerdo da tela, na "
+#~ "mesma categoria da qual eles vieram da Central de Aplicativos."
+
+#~ msgid ""
+#~ "For example, if you installed a program from the <guilabel>Office</"
+#~ "guilabel> department, it will appear inside "
+#~ "<menuchoice><guimenu>Applications</guimenu> <guisubmenu>Office</"
+#~ "guisubmenu></menuchoice>."
+#~ msgstr ""
+#~ "Por exemplo, se você instalou um aplicativo do departamento "
+#~ "<guilabel>Escritório</guilabel>, ele aparecerá em "
+#~ "<menuchoice><guimenu>Aplicativos</guimenu> <guisubmenu>Escritório</"
+#~ "guisubmenu></menuchoice>."
+
+#~ msgid "Why are all the programs free?"
+#~ msgstr "Porque todos os aplicativos são grátis?"
+
+#~ msgid "Currently, all software in Software Center is free of charge."
+#~ msgstr ""
+#~ "Atualmente todos os aplicativos na Central de Aplicativos são grátis."
+
+#~ msgid ""
+#~ "Most of this software is developed as <firstterm>open source</firstterm>, "
+#~ "which means anyone is allowed to alter it and redistribute it for any "
+#~ "price.  Ubuntu developers, Debian developers, and others package the "
+#~ "software available in Software Center, and make it available to you for "
+#~ "free."
+#~ msgstr ""
+#~ "A maioria desses aplicativos é desenvolvida com o <firstterm>código "
+#~ "aberto</firstterm>, o que significa que qualquer pessoa pode alterá-los e "
+#~ "redistribuí-los por qualquer preço.  Os desenvolvedores do Ubuntu, do "
+#~ "Debian e outros empacotam os aplicativos disponíveis na Central de "
+#~ "Aplicativos e tornam-nos disponíveis para você gratuitamente."
 
 #~ msgid ""
 #~ "If you are using Ubuntu Netbook Edition, an application appears in its "

@@ -1,0 +1,12 @@
+Index: software-center-5.1.2debian3.1/softwarecenter/ui/gtk3/app.py
+===================================================================
+--- software-center-5.1.2debian3.1.orig/softwarecenter/ui/gtk3/app.py	2013-03-19 14:44:33.150479272 -0430
++++ software-center-5.1.2debian3.1/softwarecenter/ui/gtk3/app.py	2013-03-19 14:49:33.966468852 -0430
+@@ -273,6 +273,7 @@
+                                  settings,
+                                  Gdk.Screen.get_default(),
+                                  datadir)
++	init_sc_css_provider(self.window_main, settings, Gdk.Screen.get_default(),datadir)
+ 
+         # register view manager and create view panes/widgets
+         self.view_manager = ViewManager(self.notebook_view, options)

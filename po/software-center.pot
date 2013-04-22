@@ -8,272 +8,223 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-24 16:38+0000\n"
+"POT-Creation-Date: 2013-04-10 14:23-0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: ../data/ui/SoftwareCenter.ui.h:1
-msgid "&#xA9;2009-2010 Canonical"
-msgstr ""
-
-#: ../data/ui/SoftwareCenter.ui.h:2
-msgid "Copy _Web Link"
-msgstr ""
-
-#: ../data/ui/SoftwareCenter.ui.h:3
-msgid "Rebuilding application catalog..."
-msgstr ""
-
-#: ../data/ui/SoftwareCenter.ui.h:4
-msgid "Search..."
-msgstr ""
-
-#: ../data/ui/SoftwareCenter.ui.h:5
-msgid "Software Center _Help"
-msgstr ""
-
-#: ../data/ui/SoftwareCenter.ui.h:6
-msgid "_All Software"
-msgstr ""
-
-#: ../data/ui/SoftwareCenter.ui.h:7
-msgid "_Canonical-Maintained Software"
-msgstr ""
-
-#: ../data/ui/SoftwareCenter.ui.h:8
-msgid "_Edit"
-msgstr ""
-
-#: ../data/ui/SoftwareCenter.ui.h:9
-msgid "_File"
-msgstr ""
-
-#: ../data/ui/SoftwareCenter.ui.h:10
-msgid "_Help"
-msgstr ""
-
-#: ../data/ui/SoftwareCenter.ui.h:11
-msgid "_Install"
-msgstr ""
-
-#: ../data/ui/SoftwareCenter.ui.h:12
-msgid "_Software Sources..."
-msgstr ""
-
-#: ../data/ui/SoftwareCenter.ui.h:13
-msgid "_View"
-msgstr ""
-
+#. clear the ubuntu SSO token for this account
+#. FIXME: this needs to be consolidated - one token is
+#. aquired for purchase in utils/submit_review.py
+#. the other one in softwarecenter/app.py
 #: ../data/ubuntu-software-center.desktop.in.h:1
-msgid ""
-"Lets you choose from thousands of free applications available for Ubuntu"
+#: ../softwarecenter/distro/Ubuntu.py:67 ../softwarecenter/ui/gtk3/app.py:704
+msgid "Ubuntu Software Center"
 msgstr ""
 
 #: ../data/ubuntu-software-center.desktop.in.h:2
-#: ../data/unbranded-software-center.desktop.in.h:2
-#: ../softwarecenter/distro/__init__.py:39
+#: ../data/unbranded-software-center.desktop.in.h:1
+#: ../softwarecenter/distro/__init__.py:58
+#: ../softwarecenter/distro/SUSELINUX.py:40
 msgid "Software Center"
 msgstr ""
 
 #: ../data/ubuntu-software-center.desktop.in.h:3
-#: ../softwarecenter/distro/Ubuntu.py:39
-msgid "Ubuntu Software Center"
+msgid "Lets you choose from thousands of applications available for Ubuntu"
 msgstr ""
 
-#: ../data/unbranded-software-center.desktop.in.h:1
+#: ../data/unbranded-software-center.desktop.in.h:2
 msgid ""
-"Lets you choose from thousands of free applications available for your "
-"system "
+"Lets you choose from thousands of applications available for your system "
 msgstr ""
 
 #: ../data/software-center.menu.in.h:1
-msgid "3D"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:2
 msgid "Accessories"
 msgstr ""
 
+#: ../data/software-center.menu.in.h:2
+msgid "Universal Access"
+msgstr ""
+
 #: ../data/software-center.menu.in.h:3
-msgid "Arcade"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:4
-msgid "Astronomy"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:5
-msgid "Biology"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:6
-msgid "Board Games"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:7
-msgid "Card Games"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:8
-msgid "Chat"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:9
-msgid "Chemistry"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:10
-msgid "Computer Science &amp; Robotics"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:11
-msgid "Debugging"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:12
 msgid "Developer Tools"
 msgstr ""
 
-#: ../data/software-center.menu.in.h:13
-msgid "Drawing"
+#: ../data/software-center.menu.in.h:4
+msgid "Debugging"
 msgstr ""
 
-#: ../data/software-center.menu.in.h:14
-msgid "Education"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:15
-msgid "Electronics"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:16
-msgid "Engineering"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:17
-msgid "File Sharing"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:18
-msgid "Fonts"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:19
-msgid "Games"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:20
-msgid "Geography"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:21
-msgid "Geology"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:22
+#: ../data/software-center.menu.in.h:5
 msgid "Graphic Interface Design"
 msgstr ""
 
-#: ../data/software-center.menu.in.h:23
-msgid "Graphics"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:24
+#: ../data/software-center.menu.in.h:6
 msgid "Haskell"
 msgstr ""
 
-#: ../data/software-center.menu.in.h:25
+#: ../data/software-center.menu.in.h:7
 msgid "IDEs"
 msgstr ""
 
-#: ../data/software-center.menu.in.h:26
-msgid "Internet"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:27
+#: ../data/software-center.menu.in.h:8
 msgid "Java"
 msgstr ""
 
-#: ../data/software-center.menu.in.h:28
+#: ../data/software-center.menu.in.h:9
 msgid "Libraries"
 msgstr ""
 
-#: ../data/software-center.menu.in.h:29
+#: ../data/software-center.menu.in.h:10
 msgid "Lisp"
 msgstr ""
 
-#: ../data/software-center.menu.in.h:30
+#: ../data/software-center.menu.in.h:11
 msgid "Localization"
 msgstr ""
 
-#: ../data/software-center.menu.in.h:31
-msgid "Mail"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:32
-msgid "Mathematics"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:33
+#: ../data/software-center.menu.in.h:12
 msgid "Mono/CLI"
 msgstr ""
 
-#: ../data/software-center.menu.in.h:34
-msgid "Multimedia"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:35
+#: ../data/software-center.menu.in.h:13
 msgid "OCaml"
 msgstr ""
 
-#: ../data/software-center.menu.in.h:36
-msgid "Office"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:37
-msgid "Painting &amp; Editing"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:38
+#: ../data/software-center.menu.in.h:14
 msgid "Perl"
 msgstr ""
 
-#: ../data/software-center.menu.in.h:39
-msgid "Photography"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:40
-msgid "Physics"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:41
+#: ../data/software-center.menu.in.h:15
 msgid "Profiling"
 msgstr ""
 
-#: ../data/software-center.menu.in.h:42
-msgid "Publishing"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:43
-msgid "Puzzles"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:44
+#: ../data/software-center.menu.in.h:16
 msgid "Python"
 msgstr ""
 
-#: ../data/software-center.menu.in.h:45
+#: ../data/software-center.menu.in.h:17
+msgid "Ruby"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:18
+msgid "Version Control"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:19
+msgid "Web Development"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:20
+msgid "Education"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:21
+msgid "Science &amp; Engineering"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:22
+msgid "Astronomy"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:23
+msgid "Biology"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:24
+msgid "Chemistry"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:25
+msgid "Computer Science &amp; Robotics"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:26
+msgid "Electronics"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:27
+msgid "Engineering"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:28
+msgid "Geography"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:29
+msgid "Geology"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:30
+msgid "Mathematics"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:31
+msgid "Physics"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:32
+msgid "Fonts"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:33
+msgid "Games"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:34
+msgid "Arcade"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:35
+msgid "Board Games"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:36
+msgid "Card Games"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:37
+msgid "Puzzles"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:38
 msgid "Role Playing"
 msgstr ""
 
+#: ../data/software-center.menu.in.h:39
+msgid "Simulation"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:40
+msgid "Sports"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:41
+msgid "Graphics"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:42
+msgid "3D Graphics"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:43
+msgid "Drawing"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:44
+msgid "Painting &amp; Editing"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:45
+msgid "Photography"
+msgstr ""
+
 #: ../data/software-center.menu.in.h:46
-msgid "Ruby"
+msgid "Publishing"
 msgstr ""
 
 #: ../data/software-center.menu.in.h:47
@@ -281,67 +232,165 @@ msgid "Scanning &amp; OCR"
 msgstr ""
 
 #: ../data/software-center.menu.in.h:48
-msgid "Science &amp; Engineering"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:49
-msgid "Simulation"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:50
-msgid "Sports"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:51
-msgid "System"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:52
-msgid "Themes &amp; Tweaks"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:53
-msgid "Universal Access"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:54
-msgid "Version Control"
-msgstr ""
-
-#: ../data/software-center.menu.in.h:55
 msgid "Viewers"
 msgstr ""
 
-#: ../data/software-center.menu.in.h:56
+#: ../data/software-center.menu.in.h:49
+msgid "Internet"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:50
+msgid "Chat"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:51
+msgid "File Sharing"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:52
+msgid "Mail"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:53
 msgid "Web Browsers"
 msgstr ""
 
+#: ../data/software-center.menu.in.h:54
+msgid "Multimedia"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:55
+msgid "Office"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:56
+msgid "Themes &amp; Tweaks"
+msgstr ""
+
 #: ../data/software-center.menu.in.h:57
-msgid "Web Development"
+#: ../softwarecenter/ui/gtk3/models/appstore2.py:226
+msgid "System"
 msgstr ""
 
-#: ../data/featured.menu.in.h:1
-msgid "Featured Applications"
-msgstr ""
-
-#: ../softwarecenter/app.py:148
-msgid "Sorry, can not open the software database"
-msgstr ""
-
-#: ../softwarecenter/app.py:149
-msgid "Please re-install the 'software-center' package."
-msgstr ""
-
-#: ../softwarecenter/backend/aptd.py:219
-msgid "Error"
-msgstr ""
-
-#: ../softwarecenter/backend/channel.py:92
+#: ../softwarecenter/backend/channel.py:221
 msgid "Canonical Partners"
 msgstr ""
 
-#: ../softwarecenter/backend/channel.py:94
+#. commercial apps provide license info via the software-center-agent,
+#. but if a given commercial app does not provide this for some reason,
+#. default to a license type of "Unknown"
+#: ../softwarecenter/backend/channel.py:223
+#: ../softwarecenter/distro/Ubuntu.py:116
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1188
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1192
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1634
+msgid "Unknown"
+msgstr ""
+
+#: ../softwarecenter/backend/channel.py:227
+msgid "For Purchase"
+msgstr ""
+
+#: ../softwarecenter/backend/channel.py:229
+msgid "Independent"
+msgstr ""
+
+#. TRANSLATORS: The following is one entry in a combobox that is
+#. located directly beneath a label asking 'Why is this review inappropriate?'.
+#. This text refers to a possible reason for why the corresponding
+#. review is being flagged as inappropriate.
+#: ../softwarecenter/backend/channel.py:231
+#: ../utils/delete_review_gtk3.py:1235 ../utils/modify_review_gtk3.py:1235
+#: ../utils/report_review_gtk3.py:1235 ../utils/submit_review_gtk3.py:1235
+#: ../utils/submit_usefulness_gtk3.py:1235
 msgid "Other"
+msgstr ""
+
+#: ../softwarecenter/backend/channel.py:308
+#: ../softwarecenter/ui/gtk3/panes/availablepane.py:274
+#: ../softwarecenter/ui/gtk3/panes/viewswitcher.py:79
+msgid "All Software"
+msgstr ""
+
+#: ../softwarecenter/backend/channel.py:314
+msgid "All Installed"
+msgstr ""
+
+#: ../softwarecenter/backend/oneconfhandler/core.py:122
+#: ../softwarecenter/backend/oneconfhandler/core.py:126
+#, python-format
+msgid "Last sync %s"
+msgstr ""
+
+#: ../softwarecenter/backend/oneconfhandler/core.py:124
+#, python-format
+msgid "Last sync yesterday %s"
+msgstr ""
+
+#: ../softwarecenter/backend/oneconfhandler/core.py:128
+msgid ""
+"To sync with another computer, choose “Sync Between Computers” from that "
+"computer."
+msgstr ""
+
+#: ../softwarecenter/backend/oneconfhandler/core.py:161
+msgid ""
+"With multiple Ubuntu computers, you can publish their inventories online to "
+"compare the software installed on each\n"
+"No-one else will be able to see what you have installed."
+msgstr ""
+
+#: ../softwarecenter/backend/installbackend_impl/aptd.py:725
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:292
+msgid "Error"
+msgstr ""
+
+#: ../softwarecenter/backend/installbackend_impl/aptd.py:758
+msgid "_Ignore and install"
+msgstr ""
+
+#: ../softwarecenter/db/application.py:208
+#: ../softwarecenter/db/application.py:309
+#: ../softwarecenter/db/application.py:445
+#: ../softwarecenter/db/application.py:459 ../softwarecenter/db/debfile.py:60
+#: ../softwarecenter/db/debfile.py:65
+msgid "Not found"
+msgstr ""
+
+#: ../softwarecenter/db/application.py:209
+#: ../softwarecenter/db/application.py:310
+#: ../softwarecenter/db/application.py:446
+#: ../softwarecenter/db/application.py:460
+#, python-format
+msgid ""
+"There isn’t a software package called “%s” in your current software sources."
+msgstr ""
+
+#: ../softwarecenter/db/application.py:594
+#, python-format
+msgid "Version %s or later not available."
+msgstr ""
+
+#: ../softwarecenter/db/application.py:607
+#, python-format
+msgid "Available from the \"%s\" source."
+msgstr ""
+
+#. Translators: the visible string is constructed concatenating
+#. the following 3 strings like this:
+#. Available from the following sources: %s, ... %s, %s.
+#: ../softwarecenter/db/application.py:612
+msgid "Available from the following sources: "
+msgstr ""
+
+#: ../softwarecenter/db/application.py:615
+#, python-format
+msgid "\"%s\", "
+msgstr ""
+
+#: ../softwarecenter/db/application.py:616
+#, python-format
+msgid "\"%s\"."
 msgstr ""
 
 #. TRANSLATORS: List of "grey-listed" words sperated with ";"
@@ -349,38 +398,44 @@ msgstr ""
 #. provide a list of words in your language that people are likely
 #. to include in a search but that should normally be ignored in
 #. the search.
-#: ../softwarecenter/db/database.py:39
+#: ../softwarecenter/db/database.py:114
 msgid "app;application;package;program;programme;suite;tool"
 msgstr ""
 
-#. if we don't have a package and it has no arch/component its
-#. not available for us
-#: ../softwarecenter/db/database.py:171
-#: ../softwarecenter/view/appdetailsview.py:212
+#: ../softwarecenter/db/update.py:456
 #, python-format
-msgid "Sorry, '%s' is not available for this type of computer (%s)."
-msgstr ""
-
-#: ../softwarecenter/distro/__init__.py:45
 msgid ""
-"Lets you choose from thousands of free applications available for your "
-"system."
+"The file: '%s' could not be read correctly. The application associated with "
+"this file will not be included in the software catalog. Please consider "
+"raising a bug report for this issue with the maintainer of that application"
 msgstr ""
 
-#: ../softwarecenter/distro/Debian.py:44
+#. WARNING: item.name needs to be different than
+#. the item.name in the DB otherwise the DB
+#. gets confused about (appname, pkgname) duplication
+#: ../softwarecenter/db/update.py:497
+#, python-format
+msgid "%s (already purchased)"
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:46
 msgid "Provided by Debian"
 msgstr ""
 
-#: ../softwarecenter/distro/Debian.py:47 ../softwarecenter/distro/Ubuntu.py:53
+#: ../softwarecenter/distro/Debian.py:49 ../softwarecenter/distro/Ubuntu.py:81
+#: ../softwarecenter/distro/SUSELINUX.py:54
 #, python-format
 msgid "To remove %s, these items must be removed as well:"
 msgstr ""
 
-#: ../softwarecenter/distro/Debian.py:49 ../softwarecenter/distro/Ubuntu.py:55
+#: ../softwarecenter/distro/Debian.py:51
+#: ../softwarecenter/distro/__init__.py:149
+#: ../softwarecenter/distro/Ubuntu.py:83
+#: ../softwarecenter/distro/SUSELINUX.py:56
 msgid "Remove All"
 msgstr ""
 
-#: ../softwarecenter/distro/Debian.py:56 ../softwarecenter/distro/Ubuntu.py:62
+#: ../softwarecenter/distro/Debian.py:56 ../softwarecenter/distro/Ubuntu.py:88
 #, python-format
 msgid ""
 "If you uninstall %s, future updates will not include new items in <b>%s</b> "
@@ -388,7 +443,8 @@ msgid ""
 msgstr ""
 
 #: ../softwarecenter/distro/Debian.py:59 ../softwarecenter/distro/Debian.py:70
-#: ../softwarecenter/distro/Ubuntu.py:65 ../softwarecenter/distro/Ubuntu.py:76
+#: ../softwarecenter/distro/Ubuntu.py:91
+#: ../softwarecenter/distro/Ubuntu.py:102
 msgid "Remove Anyway"
 msgstr ""
 
@@ -399,291 +455,1683 @@ msgid ""
 "upgrades to be incomplete. Are you sure you want to continue?"
 msgstr ""
 
-#. generic message
-#: ../softwarecenter/distro/Debian.py:79 ../softwarecenter/distro/Ubuntu.py:85
-msgid "Installed"
+#: ../softwarecenter/distro/Debian.py:77
+msgid "Meets the Debian Free Software Guidelines"
 msgstr ""
 
-#: ../softwarecenter/distro/Debian.py:91 ../softwarecenter/distro/Ubuntu.py:97
-msgid "Unknown"
-msgstr ""
-
-#: ../softwarecenter/distro/Debian.py:93 ../softwarecenter/distro/Ubuntu.py:99
-msgid "Open Source"
-msgstr ""
-
-#: ../softwarecenter/distro/Debian.py:95
-msgid "Open Source with proprietary parts"
-msgstr ""
-
-#: ../softwarecenter/distro/Debian.py:97
-#: ../softwarecenter/distro/Ubuntu.py:101
-msgid "Proprietary"
-msgstr ""
-
-#: ../softwarecenter/distro/Debian.py:98
-#: ../softwarecenter/distro/Ubuntu.py:102
-#, python-format
-msgid "License: %s"
-msgstr ""
-
-#: ../softwarecenter/distro/Ubuntu.py:42
+#: ../softwarecenter/distro/Debian.py:79
 msgid ""
-"Lets you choose from thousands of free applications available for Ubuntu."
+"Meets the Debian Free Software Guidelines itself but requires additional non-"
+"free software to work"
 msgstr ""
 
-#: ../softwarecenter/distro/Ubuntu.py:50
+#: ../softwarecenter/distro/Debian.py:82
+msgid ""
+"Non-free since it is either restricted in use, redistribution or "
+"modification."
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:127
+msgid "Debian does not provide critical updates."
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:129
+#, python-format
+msgid ""
+"Debian does not provide critical updates. Some updates may be provided by "
+"the developers of %s and redistributed by Debian."
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:134
+#, python-format
+msgid "Debian provides critical updates for %s."
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:136
+#, python-format
+msgid ""
+"Debian only provides updates for %s during a transition phase. Please "
+"consider upgrading to a later stable release of Debian."
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:141
+#, python-format
+msgid ""
+"Debian provides critical updates for %s. But updates could be delayed or "
+"skipped."
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:144
+#, python-format
+msgid "Debian doens't provides critical updates for %s"
+msgstr ""
+
+#: ../softwarecenter/distro/__init__.py:64
+msgid ""
+"Lets you choose from thousands of applications available for your system."
+msgstr ""
+
+#: ../softwarecenter/distro/__init__.py:105
+msgid "Supported Software"
+msgstr ""
+
+#: ../softwarecenter/distro/__init__.py:108
+#, python-format
+msgid "To install %s, these items must be removed:"
+msgstr ""
+
+#: ../softwarecenter/distro/__init__.py:109
+#: ../softwarecenter/distro/__init__.py:117
+#: ../softwarecenter/distro/__init__.py:127
+msgid "Install Anyway"
+msgstr ""
+
+#: ../softwarecenter/distro/__init__.py:114
+#, python-format
+msgid ""
+"If you install %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+
+#: ../softwarecenter/distro/__init__.py:124
+#, python-format
+msgid ""
+"Installing %s may cause core applications to be removed. Are you sure you "
+"want to continue?"
+msgstr ""
+
+#: ../softwarecenter/distro/__init__.py:136
+#, python-format
+msgid ""
+"Are you sure you want to deauthorize this computer from the \"%s\" account?"
+msgstr ""
+
+#: ../softwarecenter/distro/__init__.py:139
+msgid "Are you sure you want to deauthorize this computer for purchases?"
+msgstr ""
+
+#: ../softwarecenter/distro/__init__.py:141
+#: ../softwarecenter/ui/gtk3/dialogs/deauthorize_dialog.py:67
+msgid "Deauthorize"
+msgstr ""
+
+#: ../softwarecenter/distro/__init__.py:144
+#, python-format
+msgid ""
+"Deauthorizing this computer from the \"%s\" account will remove this "
+"purchased software:"
+msgstr ""
+
+#: ../softwarecenter/distro/__init__.py:147
+msgid ""
+"Deauthorizing this computer for purchases will remove the following "
+"purchased software:"
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:70
+msgid "Lets you choose from thousands of applications available for Ubuntu."
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:78
 msgid "Provided by Ubuntu"
 msgstr ""
 
-#: ../softwarecenter/distro/Ubuntu.py:72
+#: ../softwarecenter/distro/Ubuntu.py:98
 #, python-format
 msgid ""
 "%s is a core application in Ubuntu. Uninstalling it may cause future "
 "upgrades to be incomplete. Are you sure you want to continue?"
 msgstr ""
 
-#. TRANSLATORS: This text will be showed as price of the software
-#. its free
-#: ../softwarecenter/distro/Ubuntu.py:126
-#: ../softwarecenter/view/appdetailsview.py:500
-msgid "Free"
+#: ../softwarecenter/distro/Ubuntu.py:109
+#: ../softwarecenter/distro/SUSELINUX.py:62
+msgid "Open source"
 msgstr ""
 
-#: ../softwarecenter/distro/Ubuntu.py:173
-#: ../softwarecenter/distro/Ubuntu.py:185
+#: ../softwarecenter/distro/Ubuntu.py:111
+#: ../softwarecenter/distro/SUSELINUX.py:64
+msgid "Proprietary"
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:139
+msgid "Canonical-Maintained Software"
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:188
+#: ../softwarecenter/distro/Ubuntu.py:200
 #, python-format
 msgid ""
 "Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
 "available in a newer version of Ubuntu."
 msgstr ""
 
-#: ../softwarecenter/distro/Ubuntu.py:178
+#: ../softwarecenter/distro/Ubuntu.py:193
 #, python-format
 msgid ""
 "Canonical provides critical updates for %(appname)s until "
 "%(support_end_month_str)s %(support_end_year)s."
 msgstr ""
 
-#: ../softwarecenter/distro/Ubuntu.py:190
+#: ../softwarecenter/distro/Ubuntu.py:205
 #, python-format
 msgid ""
 "Canonical provides critical updates supplied by the developers of "
 "%(appname)s until %(support_end_month_str)s %(support_end_year)s."
 msgstr ""
 
-#: ../softwarecenter/distro/Ubuntu.py:200
+#: ../softwarecenter/distro/Ubuntu.py:216
 #, python-format
 msgid ""
 "Canonical does not provide updates for %s. Some updates may be provided by "
 "the third party vendor."
 msgstr ""
 
-#: ../softwarecenter/distro/Ubuntu.py:204
+#: ../softwarecenter/distro/Ubuntu.py:220
 #, python-format
 msgid "Canonical provides critical updates for %s."
 msgstr ""
 
-#: ../softwarecenter/distro/Ubuntu.py:206
+#: ../softwarecenter/distro/Ubuntu.py:222
 #, python-format
 msgid "Canonical provides critical updates supplied by the developers of %s."
 msgstr ""
 
-#: ../softwarecenter/distro/Ubuntu.py:209
+#: ../softwarecenter/distro/Ubuntu.py:225
 #, python-format
 msgid ""
 "Canonical does not provide updates for %s. Some updates may be provided by "
 "the Ubuntu community."
 msgstr ""
 
-#: ../softwarecenter/distro/Ubuntu.py:212
+#: ../softwarecenter/enums.py:28 ../softwarecenter/ui/gtk3/app.py:652
+msgid ""
+"To reinstall previous purchases, sign in to the Ubuntu Single Sign-On "
+"account you used to pay for them."
+msgstr ""
+
+#: ../softwarecenter/enums.py:102
+msgid "Most helpful first"
+msgstr ""
+
+#: ../softwarecenter/enums.py:102
+msgid "Newest first"
+msgstr ""
+
+#. less than 2 minute ago
+#: ../softwarecenter/utils.py:410
+msgid "a few minutes ago"
+msgstr ""
+
+#. dont be fussy
+#. less than an hour ago
+#: ../softwarecenter/utils.py:413
 #, python-format
-msgid "Application %s has an unknown maintenance status."
+msgid "%(min)i minute ago"
+msgid_plural "%(min)i minutes ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. less than a day ago
+#: ../softwarecenter/utils.py:418
+#, python-format
+msgid "%(hours)i hour ago"
+msgid_plural "%(hours)i hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. less than a week ago
+#: ../softwarecenter/utils.py:423
+#, python-format
+msgid "%(days)i day ago"
+msgid_plural "%(days)i days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:1
+msgid "_Go Back"
 msgstr ""
 
-#: ../softwarecenter/view/appdetailsview.py:85
-msgid "Description"
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:2
+msgid "_Go Forward"
 msgstr ""
 
-#: ../softwarecenter/view/appdetailsview.py:202
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:3
+msgid "©2009-2011 Canonical"
+msgstr ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:4
+msgid "translator-credits"
+msgstr ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:5
+msgid "_File"
+msgstr ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:6
+msgid "_Install"
+msgstr ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:7
+msgid "Reinstall Previous Purchases…"
+msgstr ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:8
+msgid "Deauthorize Computer…"
+msgstr ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:9
+msgid "Sync Between Computers…"
+msgstr ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:10
+msgid "_Edit"
+msgstr ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:11
+msgid "Copy _Web Link"
+msgstr ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:12
+msgid "Search…"
+msgstr ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:13
+msgid "_Software Sources…"
+msgstr ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:14
+msgid "_View"
+msgstr ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:15
+msgid "_All Software"
+msgstr ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:16
+msgid "_Canonical-Maintained Software"
+msgstr ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:17
+msgid "_Help"
+msgstr ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:18
+msgid "For Software Developers"
+msgstr ""
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:19
+msgid "Updating software catalog…"
+msgstr ""
+
+#: ../data/ui/gtk3/dialogs.ui.h:1
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:551
+msgid "Cancel"
+msgstr ""
+
+#: ../data/ui/gtk3/dialogs.ui.h:2
+msgid "Repair"
+msgstr ""
+
+#: ../data/ui/gtk3/dialogs.ui.h:3
+msgid ""
+"<span weight=\"bold\" font_size=\"large\">Items cannot be installed or "
+"removed \n"
+"until the package catalog is repaired. Do you want to repair it now?</span>"
+msgstr ""
+
+#: ../data/ui/gtk3/dialogs.ui.h:5
+msgid ""
+"Once Update Manager has finished the repairs, you can close it and return to "
+"the store."
+msgstr ""
+
+#: ../data/ui/gtk3/dialogs.ui.h:6
+msgid " "
+msgstr ""
+
+#: ../data/ui/gtk3/dialogs.ui.h:7
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:256
+#: ../softwarecenter/ui/gtk3/widgets/apptreeview.py:83
+msgid "Remove"
+msgstr ""
+
+#: ../data/ui/gtk3/dialogs.ui.h:9
+#, no-c-format
+msgid "There was a problem posting this review to %s"
+msgstr ""
+
+#: ../data/ui/gtk3/dialogs.ui.h:11
+#, no-c-format
+msgid "%s had not responded within 30 seconds."
+msgstr ""
+
+#: ../data/ui/gtk3/dialogs.ui.h:12
+msgid "Retry"
+msgstr ""
+
+#: ../data/ui/gtk3/dialogs.ui.h:13
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:433
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:437
+msgid "OK"
+msgstr ""
+
+#: ../data/ui/gtk3/dialogs.ui.h:15
+#, no-c-format
+msgid ""
+"<span weight=\"bold\" font_size=\"large\">Sorry, %s can't be installed at "
+"the moment. Try again in a day or two.</span>"
+msgstr ""
+
+#: ../data/ui/gtk3/dialogs.ui.h:16
+#: ../softwarecenter/ui/gtk3/dialogs/__init__.py:76
+msgid "Details"
+msgstr ""
+
+#: ../data/ui/gtk3/login.ui.h:1
+msgid "Login"
+msgstr ""
+
+#: ../data/ui/gtk3/login.ui.h:2
+msgid "E-mail"
+msgstr ""
+
+#: ../data/ui/gtk3/login.ui.h:3
+msgid "I have an Ubuntu Account"
+msgstr ""
+
+#: ../data/ui/gtk3/login.ui.h:4
+msgid "Password"
+msgstr ""
+
+#: ../data/ui/gtk3/login.ui.h:5
+msgid "Remember password"
+msgstr ""
+
+#: ../data/ui/gtk3/login.ui.h:6
+msgid "I want to register now"
+msgstr ""
+
+#: ../data/ui/gtk3/login.ui.h:7
+msgid "I forgot my password"
+msgstr ""
+
+#: ../data/ui/gtk3/login.ui.h:8
+msgid "Continue"
+msgstr ""
+
+#: ../data/ui/gtk3/report_abuse.ui.h:1 ../data/ui/gtk3/submit_review.ui.h:1
+#: ../data/ui/gtk3/submit_usefulness.ui.h:1
+msgid "label"
+msgstr ""
+
+#: ../data/ui/gtk3/report_abuse.ui.h:2
+#: ../data/ui/gtk3/submit_usefulness.ui.h:2
+msgid "Thank you."
+msgstr ""
+
+#: ../data/ui/gtk3/report_abuse.ui.h:3
+msgid "Report"
+msgstr ""
+
+#. error detail link label
+#: ../data/ui/gtk3/report_abuse.ui.h:4 ../data/ui/gtk3/submit_review.ui.h:8
+#: ../utils/delete_review_gtk3.py:754 ../utils/delete_review_gtk3.py:1258
+#: ../utils/modify_review_gtk3.py:754 ../utils/modify_review_gtk3.py:1258
+#: ../utils/report_review_gtk3.py:754 ../utils/report_review_gtk3.py:1258
+#: ../utils/submit_review_gtk3.py:754 ../utils/submit_review_gtk3.py:1258
+#: ../utils/submit_usefulness_gtk3.py:754
+#: ../utils/submit_usefulness_gtk3.py:1258
+msgid "Error Details"
+msgstr ""
+
+#: ../data/ui/gtk3/submit_review.ui.h:2
+msgid "<small>Be brief and informative. Do not post bug reports.</small>"
+msgstr ""
+
+#: ../data/ui/gtk3/submit_review.ui.h:3
+msgid "<small>More…</small>"
+msgstr ""
+
+#: ../data/ui/gtk3/submit_review.ui.h:4
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:699
+msgid "Yes"
+msgstr ""
+
+#: ../data/ui/gtk3/submit_review.ui.h:5
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:701
+msgid "No"
+msgstr ""
+
+#: ../data/ui/gtk3/submit_review.ui.h:6
+msgid "You have started a review, are you really sure you want to cancel now?"
+msgstr ""
+
+#: ../data/ui/gtk3/submit_review.ui.h:7
+msgid "Publish"
+msgstr ""
+
+#: ../data/ui/gtk3/submit_usefulness.ui.h:3
+msgid "Submit"
+msgstr ""
+
+#: ../softwarecenter/db/debfile.py:61
+#, python-format
+msgid "The file “%s” does not exist."
+msgstr ""
+
+#: ../softwarecenter/db/debfile.py:66
+#, python-format
+msgid "The file “%s” is not a software package."
+msgstr ""
+
+#. deb files which are corrupt
+#. or unknown error, but we are in string freeze,
+#. should never happen anyway
+#: ../softwarecenter/db/debfile.py:69
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:558
+msgid "Internal Error"
+msgstr ""
+
+#: ../softwarecenter/db/debfile.py:70
+#, python-format
+msgid "The file “%s” could not be opened."
+msgstr ""
+
+#: ../softwarecenter/db/debfile.py:173
+msgid "Only install this file if you trust the origin."
+msgstr ""
+
+#: ../softwarecenter/db/debfile.py:178 ../softwarecenter/db/debfile.py:180
 #, python-format
 msgid ""
-"This software is available from the '%s' source, which you are not currently "
-"using."
+"Please install \"%s\" via your normal software channels. Only install this "
+"file if you trust the origin."
 msgstr ""
 
-#: ../softwarecenter/view/appdetailsview.py:207
+#: ../softwarecenter/db/debfile.py:182
+#, python-format
 msgid ""
-"To show information about this item, the software catalog needs updating."
+"An older version of \"%s\" is available in your normal software channels. "
+"Only install this file if you trust the origin."
 msgstr ""
 
-#: ../softwarecenter/view/appdetailsview.py:264
-#: ../softwarecenter/view/appdetailsview.py:268
-msgid "Application Screenshot"
+#: ../softwarecenter/distro/SUSELINUX.py:43
+msgid "Lets you choose from thousands of applications available."
 msgstr ""
 
-#: ../softwarecenter/view/appdetailsview.py:296
+#: ../softwarecenter/distro/SUSELINUX.py:51
+msgid "Provided by openSUSE"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/app.py:237
+#: ../softwarecenter/ui/gtk3/dialogs/deauthorize_dialog.py:124
+#: ../softwarecenter/ui/gtk3/panes/unused__channelpane.py:292
+msgid "Sorry, can not open the software database"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/app.py:238
+#: ../softwarecenter/ui/gtk3/dialogs/deauthorize_dialog.py:125
+#: ../softwarecenter/ui/gtk3/panes/unused__channelpane.py:293
+msgid "Please re-install the 'software-center' package."
+msgstr ""
+
+#. TRANSLATORS: this is the help menuitem label, e.g. Ubuntu Software Center _Help
+#: ../softwarecenter/ui/gtk3/app.py:318
 #, python-format
-msgid "Version: %s (%s)"
+msgid "%s _Help"
 msgstr ""
 
-#: ../softwarecenter/view/appdetailsview.py:311
-msgid "Website"
+#: ../softwarecenter/ui/gtk3/app.py:705
+msgid "Ubuntu Software Center Store"
 msgstr ""
 
-#: ../softwarecenter/view/appdetailsview.py:317
+#. add the dependencies
+#: ../softwarecenter/ui/gtk3/dialogs/dependency_dialogs.py:97
+msgid "Dependency"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/models/appstore2.py:69
+msgid "Uncategorized"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/models/pendingstore.py:84
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:223
+msgid "Installing purchase…"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/models/pendingstore.py:161
 #, python-format
-msgid "Price: %s"
+msgid "Downloaded %sB of %sB"
 msgstr ""
 
-#: ../softwarecenter/view/appdetailsview.py:331
+#: ../softwarecenter/ui/gtk3/models/viewstore.py:77
+#: ../softwarecenter/ui/gtk3/panes/availablepane.py:89
+msgid "Get Software"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/models/viewstore.py:81
+#: ../softwarecenter/ui/gtk3/panes/installedpane.py:98
+msgid "Installed Software"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/models/viewstore.py:90
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:68
+#: ../softwarecenter/ui/gtk3/panes/viewswitcher.py:93
+msgid "History"
+msgstr ""
+
+#. ~ icon.start()
+#: ../softwarecenter/ui/gtk3/models/viewstore.py:111
+msgid "In Progress..."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/availablepane.py:216
+msgid "Failure in the purchase process."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/availablepane.py:217
+msgid "Sorry, something went wrong. Your payment has been cancelled."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/availablepane.py:352
+#, python-format
+msgid "Install %(amount)s Item"
+msgid_plural "Install %(amount)s Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/ui/gtk3/panes/availablepane.py:549
+msgid "Previous Purchases"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:86
+msgid "All Changes"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:91
+msgid "Installations"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:97
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1045
+msgid "Updates"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:103
+msgid "Removals"
+msgstr ""
+
+#. make a spinner to display while history is loading
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:122
+msgid "Loading history"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:143
+msgid "Date"
+msgstr ""
+
+#. Translators : time displayed in history, display hours (0-12), minutes and AM/PM. %H should be used instead of %I to display hours 0-24
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:355
+msgid "%I:%M %p"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:358
+#, python-format
+msgid "%(pkgname)s <span color=\"%(color)s\">installed %(time)s</span>"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:360
+#, python-format
+msgid "%(pkgname)s <span color=\"%(color)s\">removed %(time)s</span>"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:362
+#, python-format
+msgid "%(pkgname)s <span color=\"%(color)s\">updated %(time)s</span>"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:367
+msgid "Today"
+msgstr ""
+
+#. Current week, display the name of the day
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:370
+msgid "%A"
+msgstr ""
+
+#. Current year, display the day and month
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:374
+msgid "%d %B"
+msgstr ""
+
+#. Display the full date: day, month, year
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:377
+msgid "%d %B %Y"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/installedpane.py:128
+#, python-format
+msgid "This computer (%s)"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/installedpane.py:157
+#, python-format
+msgid "Stop Syncing “%s”"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/installedpane.py:437
+#, python-format
+msgid "%(amount)s item on “%(machine)s” not on this computer"
+msgid_plural "%(amount)s items on “%(machine)s” not on this computer"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/ui/gtk3/panes/installedpane.py:459
+#, python-format
+msgid "%(amount)s item on this computer not on “%(machine)s”"
+msgid_plural "%(amount)s items on this computer not on “%(machine)s”"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/ui/gtk3/panes/pendingpane.py:41
+#: ../softwarecenter/ui/gtk3/panes/viewswitcher.py:97
+msgid "Progress"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/softwarepane.py:401
+msgid "Not Now"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/softwarepane.py:405
+msgid "Add to Launcher"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/softwarepane.py:411
+#, python-format
+msgid "Add %s to the launcher?"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/softwarepane.py:447
+#, python-format
+msgid "%s will be added to the launcher when installation completes."
+msgstr ""
+
+#. TRANSLATORS: the text inbetween the underscores acts as a link
+#. In most/all languages you will want the whole string as a link
+#: ../softwarecenter/ui/gtk3/panes/softwarepane.py:576
+#, python-format
+msgid "_Hide %(amount)i technical item_"
+msgid_plural "_Hide %(amount)i technical items_"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/ui/gtk3/panes/softwarepane.py:582
+#, python-format
+msgid "_Show %(amount)i technical item_"
+msgid_plural "_Show %(amount)i technical items_"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/ui/gtk3/panes/unused__channelpane.py:64
+msgid "Software Channels"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/unused__channelpane.py:110
+msgid "Add channel"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/unused__channelpane.py:111
+msgid "The selected channel is not yet added. Do you want to add it now?"
+msgstr ""
+
+#. we want to re-enable the buy button if this is an app for purchase
+#. FIXME:  hacky, find a better approach
+#: ../softwarecenter/ui/gtk3/panes/unused__channelpane.py:179
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:264
+#: ../softwarecenter/ui/gtk3/widgets/apptreeview.py:84
+msgid "Buy…"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/unused__channelpane.py:220
+#: ../softwarecenter/ui/gtk3/panes/unused__channelpane.py:229
+#, python-format
+msgid "%(amount)s matching item"
+msgid_plural "%(amount)s matching items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/ui/gtk3/panes/unused__channelpane.py:224
+#, python-format
+msgid "%(amount)s item installed"
+msgid_plural "%(amount)s items installed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/ui/gtk3/panes/unused__channelpane.py:233
+#: ../softwarecenter/ui/gtk3/views/catview_gtk.py:655
+#, python-format
+msgid "%(amount)s item available"
+msgid_plural "%(amount)s items available"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/ui/gtk3/panes/viewswitcher.py:87
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:252
+msgid "Installed"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/panes/viewswitcher.py:101
+msgid "Software sources"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:77
+msgid "Version unknown"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:78
+msgid ""
+"The version of the application can not be detected. Entering a review is not "
+"possible."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:90
+msgid "Origin unknown"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:91
+msgid ""
+"The origin of the application can not be detected. Entering a review is not "
+"possible."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:220
+msgid "Installing..."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:227
+msgid "Removing..."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:230
+msgid "Upgrading..."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:236
+msgid "Installed (you're using it right now)"
+msgstr ""
+
+#. TRANSLATORS : %Y-%m-%d formats the date as 2011-03-31, please specify a format per your
+#. locale (if you prefer, %x can be used to provide a default locale-specific date
+#. representation)
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:244
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:271
+msgid "Purchased on %Y-%m-%d"
+msgstr ""
+
+#. TRANSLATORS : %Y-%m-%d formats the date as 2011-03-31, please specify a format per your
+#. locale (if you prefer, %x can be used to provide a default locale-specific date
+#. representation)
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:249
+msgid "Installed on %Y-%m-%d"
+msgstr ""
+
+#. only deb files atm
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:254
+msgid "Reinstall"
+msgstr ""
+
+#. this is used when the pkg can not be installed
+#. we display the error in the description field
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:272
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:283
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:296
+#: ../softwarecenter/ui/gtk3/widgets/apptreeview.py:82
+msgid "Install"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:276
+msgid "Removed (close it and it'll be gone)"
+msgstr ""
+
+#. TRANSLATORS: Free here means Gratis
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:282
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:544
+#: ../softwarecenter/ui/gtk3/widgets/buttons.py:247
+#: ../softwarecenter/ui/gtk3/widgets/buttons.py:250
+#: ../softwarecenter/ui/gtk3/widgets/buttons.py:252
+msgid "Free"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:285
+msgid "Upgrade Available"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:286
+msgid "Upgrade"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:288
+msgid "Changing Add-ons…"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:306
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:309
+msgid "Use This Source"
+msgstr ""
+
+#. FIXME: This will currently not be displayed,
+#. because we don't differenciate between
+#. components that are not enabled or that just
+#. lack the "Packages" files (but are in sources.list)
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:315
+msgid "Update Now"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:487
+msgid "Add-ons"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:549
+msgid "Apply Changes"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:761
+msgid "Checking for reviews..."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:831
+#, python-format
+msgid "Connection ... (%s%%)"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:836
+msgid "Disconnect"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:839
+msgid "Connected"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:843
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:849
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:981
+msgid "Test drive"
+msgstr ""
+
+#. info header
+#. ~ self.info_header = Gtk.Label()
+#. ~ self.info_header.set_markup('<big><b>%s</b></big>' % _("Details"))
+#. ~ self.info_header.set_alignment(0, 0.5)
+#. ~ self.info_header.set_padding(0, 6)
+#. ~ self.info_header.set_use_markup(True)
+#. ~ info_vb.pack_start(self.info_header, False, False, 0)
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1036
+msgid "Version"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1039
+msgid "Total size"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1042
+msgid "License"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1147
+msgid "Developer Web Site"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1184
+#, python-format
+msgid "%s (unknown version)"
+msgstr ""
+
+#. Update total size label
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1208
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1256
+msgid "Calculating..."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1289
+msgid "This program is run from a terminal: "
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1290
+msgid "These programs are run from a terminal: "
+msgstr ""
+
+#. display launcher location
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1311
+msgid "Find it in the menu: "
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1617
+#, python-format
+msgid "%sB to download, "
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1620
+#, python-format
+msgid "%sB when installed"
+msgstr ""
+
+#. FIXME: this is not really a good indication of the size on disk
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1628
+#, python-format
+msgid "%sB on disk"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1631
+#, python-format
+msgid "%sB to be freed"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1656
+#, python-format
+msgid "Used: one time"
+msgid_plural "Used: %(amount)s times"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview_gtk.py:1660
+msgid "Used: over 100 times"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appview.py:139
+msgid "By Name"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appview.py:140
+msgid "By Top Rated"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appview.py:141
+msgid "By Newest First"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/appview.py:142
+#: ../softwarecenter/ui/gtk3/views/appview.py:152
+msgid "By Relevance"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/catview_gtk.py:127
+#: ../softwarecenter/ui/gtk3/views/catview_gtk.py:520
+msgid "Departments"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/catview_gtk.py:404
+msgid "Top Rated"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/catview_gtk.py:454
+msgid "What’s New"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/catview_gtk.py:505
+#, python-format
+msgid "%(amount)s item"
+msgid_plural "%(amount)s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#. FIXME: should this be m = "%s %s" % (_(gettext text), header text) ??
+#: ../softwarecenter/ui/gtk3/views/catview_gtk.py:585
+#, python-format
+msgid "Top Rated %s"
+msgstr ""
+
+#. append an additional button to show all of the items in the category
+#: ../softwarecenter/ui/gtk3/views/catview_gtk.py:630
+#: ../softwarecenter/ui/gtk3/views/catview_gtk.py:631
+msgid "All"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/views/purchaseview.py:108
+msgid "Connecting to payment service..."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/apptreeview.py:76
+msgid "More Info"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:41
+msgid "History Navigation"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:42
+msgid "Navigate forwards and backwards."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:86
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:98
+msgid "Back Button"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:87
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:99
+msgid "Navigates back."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:91
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:104
+msgid "Forward Button"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:92
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:105
+msgid "Navigates forward."
+msgstr ""
+
+#. TRANSLATORS: this is an accessibility description for eg orca and
+#. is not visible in the ui
+#: ../softwarecenter/ui/gtk3/widgets/buttons.py:232
+#, python-format
+msgid "%(stars)d stars - %(reviews)d reviews"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/buttons.py:576
+msgid "More"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/exhibits.py:90
+#: ../softwarecenter/ui/gtk3/widgets/exhibits.py:95
+msgid "Our star apps"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/exhibits.py:96
+msgid "Come and explore our favourites"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:103
+msgid "Reviews"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:113
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:269
+msgid "Write your own review"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:190
+msgid "Be the first to review it"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:197
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:898
+msgid "You need to install this before you can review it"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:214
+msgid "No network connection"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:215
+msgid "Connect to the Internet to see more reviews."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:283
+msgid "Show reviews in english"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:295
+msgid "Check for more reviews"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:496
+msgid "Submitting now…"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:506
+msgid "Error submitting usefulness"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:542
+msgid "Deleting now…"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:552
+msgid "Error deleting review"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:554
+msgid "Error modifying review"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:615
+#, python-format
+msgid "For version %(version)s"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:619
+#, python-format
+msgid "For this version (%(version)s)"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:707
+msgid "/"
+msgstr ""
+
+#. no votes for the review yet
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:745
+msgid "Was this review helpful?"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:749
+#, python-format
+msgid ""
+"%(useful_favorable)s of %(useful_total)s people found this review helpful."
+msgid_plural ""
+"%(useful_favorable)s of %(useful_total)s people found this review helpful."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:759
+#, python-format
+msgid ""
+"%(useful_favorable)s of %(useful_total)s people found this review helpful. "
+"Did you?"
+msgid_plural ""
+"%(useful_favorable)s of %(useful_total)s people found this review helpful. "
+"Did you?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:770
+msgid "You found this review helpful."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:773
+#, python-format
+msgid ""
+"%(useful_favorable)s of %(useful_total)s people found this review helpful, "
+"including you"
+msgid_plural ""
+"%(useful_favorable)s of %(useful_total)s people found this review helpful, "
+"including you."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:782
+msgid "You found this review unhelpful."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:785
+#, python-format
+msgid ""
+"%(useful_favorable)s of %(useful_total)s people found this review helpful; "
+"you did not."
+msgid_plural ""
+"%(useful_favorable)s of %(useful_total)s people found this review helpful; "
+"you did not."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:807
+msgid "Edit"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:809
+msgid "Delete"
+msgstr ""
+
+#. Translators: This link is for flagging a review as inappropriate.
+#. To minimize repetition, if at all possible, keep it to a single word.
+#. If your language has an obvious verb, it won't need a question mark.
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:819
+msgid "Inappropriate?"
+msgstr ""
+
+#. TRANSLATORS: displayed in a review after the persons name,
+#. e.g. "Jane Smith (that's you), 2011-02-11"
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:839
+msgid "that’s you"
+msgstr ""
+
+#. TRANSLATORS: displayed if there are no reviews for the app yet
+#. and the user does not have it installed
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:897
+msgid "This app has not been reviewed yet"
+msgstr ""
+
+#. TRANSLATORS: displayed if there are no reviews yet and the user
+#. has the app installed
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:908
+msgid "Got an opinion?"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:909
+msgid "Be the first to contribute a review for this application"
+msgstr ""
+
+#. TRANSLATORS: this is the layout of an indented line starting with a bullet point
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:93
+#, python-format
+msgid "\t• %s"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:116
+#, python-format
+msgid "%(category_name)s → %(subcategory_name)s"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:122
+#, python-format
+msgid "No items match “%s”"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:124
+#, python-format
+msgid "No items in %s match “%s”"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:151
+msgid "Try searching across <a href=\"search-all/\">all categories</a> instead"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:160
+#, python-format
+msgid "Check that your spelling is correct.  Did you mean: %s?"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:169
+msgid "Suggestions:"
+msgstr ""
+
+#. else, say sorry if we cannot offer any suggestions
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:171
+msgid ""
+"Software Center was unable to come up with any suggestions that may aid you "
+"in your search"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:190
+#, python-format
+msgid ""
+"Try <a href=\"search-parent/\">the item in %(category)s</a> that matches"
+msgid_plural ""
+"Try <a href=\"search-parent/\">the %(n)d items in %(category)s</a> that match"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:225
+#, python-format
+msgid ""
+"Try <a href=\"search-unsupported:\">the %(amount)d item that matches</a> in "
+"software not maintained by Canonical"
+msgid_plural ""
+"Try <a href=\"search-unsupported:\">the %(amount)d items that match</a> in "
+"software not maintained by Canonical"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:321
+msgid "Trying suggestion ..."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/searchentry.py:60
+msgid "Search"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/stars.py:395
+#, python-format
+msgid "%(nr_ratings)i rating"
+msgid_plural "%(nr_ratings)i ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/ui/gtk3/widgets/stars.py:496
+msgid "Hint: Click a star to rate this app"
+msgstr ""
+
+#. unrated caption
+#: ../softwarecenter/ui/gtk3/widgets/stars.py:497
+msgid "Awful"
+msgstr ""
+
+#. 1 star rating
+#: ../softwarecenter/ui/gtk3/widgets/stars.py:498
+msgid "Poor"
+msgstr ""
+
+#. 2 star rating
+#: ../softwarecenter/ui/gtk3/widgets/stars.py:499
+msgid "Adequate"
+msgstr ""
+
+#. 3 star rating
+#: ../softwarecenter/ui/gtk3/widgets/stars.py:500
+msgid "Good"
+msgstr ""
+
+#. 4 star rating
+#: ../softwarecenter/ui/gtk3/widgets/stars.py:501
+msgid "Excellent"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/thumbnail.py:117
 msgid "No screenshot available"
 msgstr ""
 
-#: ../softwarecenter/view/appdetailsview.py:369
+#: ../softwarecenter/ui/gtk3/widgets/thumbnail.py:244
 #, python-format
 msgid "%s - Screenshot"
 msgstr ""
 
-#: ../softwarecenter/view/appdetailsview.py:492
-#: ../softwarecenter/view/appview.py:1146
-msgid "Remove"
+#: ../softwarecenter/ui/gtk3/widgets/thumbnail.py:366
+msgid "Fetching screenshot ..."
 msgstr ""
 
-#. 32, the pixbufoverlay height
-#: ../softwarecenter/view/appdetailsview.py:498
-#: ../softwarecenter/view/appview.py:1146
-msgid "Install"
-msgstr ""
-
-#: ../softwarecenter/view/appdetailsview.py:501
-msgid "Install - Free"
-msgstr ""
-
-#. FIXME: deal with the EULA stuff
-#. FIXME: use a proper message here, but we are in string freeze
-#: ../softwarecenter/view/appdetailsview.py:515
-#: ../softwarecenter/view/appdetailsview.py:520
-msgid "Use This Source"
-msgstr ""
-
-#: ../softwarecenter/view/appdetailsview.py:523
-msgid "Update Now"
-msgstr ""
-
-#. draw number of reviews
-#: ../softwarecenter/view/appview.py:657
-#, python-format
-msgid "%s review"
-msgid_plural "%s reviews"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ../softwarecenter/view/appview.py:1147
-msgid "More Info"
-msgstr ""
-
-#. home button
-#: ../softwarecenter/view/availablepane.py:123
-#: ../softwarecenter/view/viewswitcher.py:201
-msgid "Get Software"
-msgstr ""
-
-#: ../softwarecenter/view/availablepane.py:242
-#: ../softwarecenter/view/installedpane.py:79
-#: ../softwarecenter/view/channelpane.py:86
-msgid "Search Results"
-msgstr ""
-
-#: ../softwarecenter/view/availablepane.py:290
-#: ../softwarecenter/view/installedpane.py:158
-#: ../softwarecenter/view/channelpane.py:199
-#, python-format
-msgid "%s matching item"
-msgid_plural "%s matching items"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ../softwarecenter/view/availablepane.py:294
-#: ../softwarecenter/view/channelpane.py:203
-#, python-format
-msgid "%s item available"
-msgid_plural "%s items available"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ../softwarecenter/view/catview.py:82 ../softwarecenter/view/catview.py:88
-msgid "Departments"
-msgstr ""
-
-#: ../softwarecenter/view/dialogs.py:45
-msgid "Details"
-msgstr ""
-
-#: ../softwarecenter/view/dialogs.py:83
-msgid "Cancel"
-msgstr ""
-
-#. FIXME: make this a generic pkgview widget
-#: ../softwarecenter/view/dialogs.py:96
-msgid "Dependency"
-msgstr ""
-
-#: ../softwarecenter/view/installedpane.py:84
-#: ../softwarecenter/view/viewswitcher.py:207
-msgid "Installed Software"
-msgstr ""
-
-#: ../softwarecenter/view/installedpane.py:162
-#, python-format
-msgid "%s item installed"
-msgid_plural "%s items installed"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ../softwarecenter/view/viewswitcher.py:77
-msgid "Software sources"
-msgstr ""
-
-#: ../softwarecenter/view/viewswitcher.py:227
-#: ../softwarecenter/view/viewswitcher.py:232
-#, python-format
-msgid "In Progress (%i)"
-msgstr ""
-
-#: ../softwarecenter/view/widgets/backforward.py:61
-msgid "History Navigation"
-msgstr ""
-
-#: ../softwarecenter/view/widgets/backforward.py:62
-msgid "Navigate forwards and backwards."
-msgstr ""
-
-#: ../softwarecenter/view/widgets/backforward.py:76
-#: ../softwarecenter/view/widgets/backforward.py:90
-msgid "Back Button"
-msgstr ""
-
-#: ../softwarecenter/view/widgets/backforward.py:77
-#: ../softwarecenter/view/widgets/backforward.py:91
-msgid "Navigates back."
-msgstr ""
-
-#: ../softwarecenter/view/widgets/backforward.py:82
-#: ../softwarecenter/view/widgets/backforward.py:96
-msgid "Forward Button"
-msgstr ""
-
-#: ../softwarecenter/view/widgets/backforward.py:83
-#: ../softwarecenter/view/widgets/backforward.py:97
-msgid "Navigates forward."
-msgstr ""
-
-#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:54
+#: ../softwarecenter/ui/gtk3/widgets/unused__pathbar.py:384
 msgid "You are here:"
 msgstr ""
 
-#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:445
+#: ../softwarecenter/ui/gtk3/widgets/unused__pathbar.py:1063
 #, python-format
 msgid "Navigates to the %s page."
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/videoplayer.py:73
+#: ../softwarecenter/ui/gtk3/widgets/videoplayer.py:90
+#: ../softwarecenter/ui/gtk3/widgets/videoplayer.py:97
+#: ../softwarecenter/ui/gtk3/widgets/videoplayer.py:107
+#: ../softwarecenter/ui/gtk3/widgets/videoplayer.py:112
+msgid "Play"
+msgstr ""
+
+#: ../softwarecenter/ui/gtk3/widgets/weblivedialog.py:97
+msgid "Choose your distribution"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:285 ../utils/delete_review_gtk3.py:1320
+#: ../utils/modify_review_gtk3.py:285 ../utils/modify_review_gtk3.py:1320
+#: ../utils/report_review_gtk3.py:285 ../utils/report_review_gtk3.py:1320
+#: ../utils/submit_review_gtk3.py:285 ../utils/submit_review_gtk3.py:1320
+#: ../utils/submit_usefulness_gtk3.py:285
+#: ../utils/submit_usefulness_gtk3.py:1320
+msgid "Failed to delete review"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:371 ../utils/modify_review_gtk3.py:371
+#: ../utils/report_review_gtk3.py:371 ../utils/submit_review_gtk3.py:371
+#: ../utils/submit_usefulness_gtk3.py:371
+msgid "Server's response was:"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:373 ../utils/modify_review_gtk3.py:373
+#: ../utils/report_review_gtk3.py:373 ../utils/submit_review_gtk3.py:373
+#: ../utils/submit_usefulness_gtk3.py:373
+#, python-format
+msgid ""
+"%s\n"
+"%s"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:375 ../utils/delete_review_gtk3.py:379
+#: ../utils/modify_review_gtk3.py:375 ../utils/modify_review_gtk3.py:379
+#: ../utils/report_review_gtk3.py:375 ../utils/report_review_gtk3.py:379
+#: ../utils/submit_review_gtk3.py:375 ../utils/submit_review_gtk3.py:379
+#: ../utils/submit_usefulness_gtk3.py:375
+#: ../utils/submit_usefulness_gtk3.py:379
+msgid ""
+"Unknown error communicating with server. Check your log and consider raising "
+"a bug report if this problem persists"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:446 ../utils/modify_review_gtk3.py:446
+#: ../utils/report_review_gtk3.py:446 ../utils/submit_review_gtk3.py:446
+#: ../utils/submit_usefulness_gtk3.py:446
+msgid "Signing in…"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:471 ../utils/modify_review_gtk3.py:471
+#: ../utils/report_review_gtk3.py:471 ../utils/submit_review_gtk3.py:471
+#: ../utils/submit_usefulness_gtk3.py:471
+msgid ""
+"To review software or to report abuse you need to sign in to a Ubuntu Single "
+"Sign-On account."
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:484 ../utils/modify_review_gtk3.py:484
+#: ../utils/report_review_gtk3.py:484 ../utils/submit_review_gtk3.py:484
+#: ../utils/submit_usefulness_gtk3.py:484
+msgid "Login was canceled"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:521 ../utils/modify_review_gtk3.py:521
+#: ../utils/report_review_gtk3.py:521 ../utils/submit_review_gtk3.py:521
+#: ../utils/submit_usefulness_gtk3.py:521
+msgid "Failed to log in"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:614 ../utils/modify_review_gtk3.py:614
+#: ../utils/report_review_gtk3.py:614 ../utils/submit_review_gtk3.py:614
+#: ../utils/submit_usefulness_gtk3.py:614
+msgid "Submitting Review"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:615 ../utils/modify_review_gtk3.py:615
+#: ../utils/report_review_gtk3.py:615 ../utils/submit_review_gtk3.py:615
+#: ../utils/submit_usefulness_gtk3.py:615
+msgid "Failed to submit review"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:616 ../utils/modify_review_gtk3.py:616
+#: ../utils/report_review_gtk3.py:616 ../utils/submit_review_gtk3.py:616
+#: ../utils/submit_usefulness_gtk3.py:616
+msgid "Review submitted"
+msgstr ""
+
+#. legal fineprint, do not change without consulting a lawyer
+#: ../utils/delete_review_gtk3.py:622 ../utils/modify_review_gtk3.py:622
+#: ../utils/report_review_gtk3.py:622 ../utils/submit_review_gtk3.py:622
+#: ../utils/submit_usefulness_gtk3.py:622
+msgid ""
+"By submitting this review, you agree not to include anything defamatory, "
+"infringing, or illegal. Canonical may, at its discretion, publish your name "
+"and review in Ubuntu Software Center and elsewhere, and allow the software "
+"or content author to publish it too."
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:702 ../utils/modify_review_gtk3.py:702
+#: ../utils/report_review_gtk3.py:702 ../utils/submit_review_gtk3.py:702
+#: ../utils/submit_usefulness_gtk3.py:702
+#, python-format
+msgid "Review %s"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:706 ../utils/modify_review_gtk3.py:706
+#: ../utils/report_review_gtk3.py:706 ../utils/submit_review_gtk3.py:706
+#: ../utils/submit_usefulness_gtk3.py:706
+#, python-format
+msgid "Modify Your %s Review"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:707 ../utils/modify_review_gtk3.py:707
+#: ../utils/report_review_gtk3.py:707 ../utils/submit_review_gtk3.py:707
+#: ../utils/submit_usefulness_gtk3.py:707
+msgid "Modify"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:708 ../utils/modify_review_gtk3.py:708
+#: ../utils/report_review_gtk3.py:708 ../utils/submit_review_gtk3.py:708
+#: ../utils/submit_usefulness_gtk3.py:708
+msgid "Updating your review"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:709 ../utils/modify_review_gtk3.py:709
+#: ../utils/report_review_gtk3.py:709 ../utils/submit_review_gtk3.py:709
+#: ../utils/submit_usefulness_gtk3.py:709
+msgid "Failed to edit review"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:710 ../utils/modify_review_gtk3.py:710
+#: ../utils/report_review_gtk3.py:710 ../utils/submit_review_gtk3.py:710
+#: ../utils/submit_usefulness_gtk3.py:710
+msgid "Review updated"
+msgstr ""
+
+#. review label
+#: ../utils/delete_review_gtk3.py:746 ../utils/modify_review_gtk3.py:746
+#: ../utils/report_review_gtk3.py:746 ../utils/submit_review_gtk3.py:746
+#: ../utils/submit_usefulness_gtk3.py:746
+#, python-format
+msgid "Review by: %s"
+msgstr ""
+
+#. review summary label
+#: ../utils/delete_review_gtk3.py:749 ../utils/modify_review_gtk3.py:749
+#: ../utils/report_review_gtk3.py:749 ../utils/submit_review_gtk3.py:749
+#: ../utils/submit_usefulness_gtk3.py:749
+msgid "Summary:"
+msgstr ""
+
+#. rating label
+#: ../utils/delete_review_gtk3.py:752 ../utils/modify_review_gtk3.py:752
+#: ../utils/report_review_gtk3.py:752 ../utils/submit_review_gtk3.py:752
+#: ../utils/submit_usefulness_gtk3.py:752
+msgid "Rating:"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:790 ../utils/modify_review_gtk3.py:790
+#: ../utils/report_review_gtk3.py:790 ../utils/submit_review_gtk3.py:790
+#: ../utils/submit_usefulness_gtk3.py:790
+msgid "Can't submit unmodified"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:945 ../utils/modify_review_gtk3.py:945
+#: ../utils/report_review_gtk3.py:945 ../utils/submit_review_gtk3.py:945
+#: ../utils/submit_usefulness_gtk3.py:945
+#, python-format
+msgid "Also post this review to %s (@%s)"
+msgstr ""
+
+#. setup accounts combo
+#: ../utils/delete_review_gtk3.py:959 ../utils/modify_review_gtk3.py:959
+#: ../utils/report_review_gtk3.py:959 ../utils/submit_review_gtk3.py:959
+#: ../utils/submit_usefulness_gtk3.py:959
+msgid "Also post this review to: "
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:982 ../utils/modify_review_gtk3.py:982
+#: ../utils/report_review_gtk3.py:982 ../utils/submit_review_gtk3.py:982
+#: ../utils/submit_usefulness_gtk3.py:982
+#, python-format
+msgid "Posting to %s"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:1095 ../utils/modify_review_gtk3.py:1095
+#: ../utils/report_review_gtk3.py:1095 ../utils/submit_review_gtk3.py:1095
+#: ../utils/submit_usefulness_gtk3.py:1095
+msgid "Problems posting to Gwibber"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:1143 ../utils/modify_review_gtk3.py:1143
+#: ../utils/report_review_gtk3.py:1143 ../utils/submit_review_gtk3.py:1143
+#: ../utils/submit_usefulness_gtk3.py:1143
+#, python-format
+msgid "reviewed %(appname)s in Ubuntu: %(rating)s %(summary)s %(link)s"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:1183 ../utils/modify_review_gtk3.py:1183
+#: ../utils/report_review_gtk3.py:1183 ../utils/submit_review_gtk3.py:1183
+#: ../utils/submit_usefulness_gtk3.py:1183
+msgid "Sending report…"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:1184 ../utils/modify_review_gtk3.py:1184
+#: ../utils/report_review_gtk3.py:1184 ../utils/submit_review_gtk3.py:1184
+#: ../utils/submit_usefulness_gtk3.py:1184
+msgid "Failed to submit report"
+msgstr ""
+
+#. title
+#: ../utils/delete_review_gtk3.py:1199 ../utils/modify_review_gtk3.py:1199
+#: ../utils/report_review_gtk3.py:1199 ../utils/submit_review_gtk3.py:1199
+#: ../utils/submit_usefulness_gtk3.py:1199
+msgid "Flag as Inappropriate"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:1215 ../utils/modify_review_gtk3.py:1215
+#: ../utils/report_review_gtk3.py:1215 ../utils/submit_review_gtk3.py:1215
+#: ../utils/submit_usefulness_gtk3.py:1215
+msgid "Please make a selection…"
+msgstr ""
+
+#. TRANSLATORS: The following is one entry in a combobox that is
+#. located directly beneath a label asking 'Why is this review inappropriate?'.
+#. This text refers to a possible reason for why the corresponding
+#. review is being flagged as inappropriate.
+#: ../utils/delete_review_gtk3.py:1220 ../utils/modify_review_gtk3.py:1220
+#: ../utils/report_review_gtk3.py:1220 ../utils/submit_review_gtk3.py:1220
+#: ../utils/submit_usefulness_gtk3.py:1220
+msgid "Offensive language"
+msgstr ""
+
+#. TRANSLATORS: The following is one entry in a combobox that is
+#. located directly beneath a label asking 'Why is this review inappropriate?'.
+#. This text refers to a possible reason for why the corresponding
+#. review is being flagged as inappropriate.
+#: ../utils/delete_review_gtk3.py:1225 ../utils/modify_review_gtk3.py:1225
+#: ../utils/report_review_gtk3.py:1225 ../utils/submit_review_gtk3.py:1225
+#: ../utils/submit_usefulness_gtk3.py:1225
+msgid "Infringes copyright"
+msgstr ""
+
+#. TRANSLATORS: The following is one entry in a combobox that is
+#. located directly beneath a label asking 'Why is this review inappropriate?'.
+#. This text refers to a possible reason for why the corresponding
+#. review is being flagged as inappropriate.
+#: ../utils/delete_review_gtk3.py:1230 ../utils/modify_review_gtk3.py:1230
+#: ../utils/report_review_gtk3.py:1230 ../utils/submit_review_gtk3.py:1230
+#: ../utils/submit_usefulness_gtk3.py:1230
+msgid "Contains inaccuracies"
+msgstr ""
+
+#. report label
+#: ../utils/delete_review_gtk3.py:1252 ../utils/modify_review_gtk3.py:1252
+#: ../utils/report_review_gtk3.py:1252 ../utils/submit_review_gtk3.py:1252
+#: ../utils/submit_usefulness_gtk3.py:1252
+msgid "Please give details:"
+msgstr ""
+
+#. review summary label
+#: ../utils/delete_review_gtk3.py:1255 ../utils/modify_review_gtk3.py:1255
+#: ../utils/report_review_gtk3.py:1255 ../utils/submit_review_gtk3.py:1255
+#: ../utils/submit_usefulness_gtk3.py:1255
+msgid "Why is this review inappropriate?"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:1279 ../utils/modify_review_gtk3.py:1279
+#: ../utils/report_review_gtk3.py:1279 ../utils/submit_review_gtk3.py:1279
+#: ../utils/submit_usefulness_gtk3.py:1279
+msgid "Sending usefulness…"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:1319 ../utils/modify_review_gtk3.py:1319
+#: ../utils/report_review_gtk3.py:1319 ../utils/submit_review_gtk3.py:1319
+#: ../utils/submit_usefulness_gtk3.py:1319
+msgid "Deleting review…"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:1409 ../utils/modify_review_gtk3.py:1409
+#: ../utils/report_review_gtk3.py:1409 ../utils/submit_review_gtk3.py:1409
+#: ../utils/submit_usefulness_gtk3.py:1409
+msgid "Missing arguments"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:1438 ../utils/delete_review_gtk3.py:1462
+#: ../utils/modify_review_gtk3.py:1438 ../utils/modify_review_gtk3.py:1462
+#: ../utils/report_review_gtk3.py:1438 ../utils/report_review_gtk3.py:1462
+#: ../utils/submit_review_gtk3.py:1438 ../utils/submit_review_gtk3.py:1462
+#: ../utils/submit_usefulness_gtk3.py:1438
+#: ../utils/submit_usefulness_gtk3.py:1462
+msgid "Missing review-id arguments"
+msgstr ""
+
+#: ../utils/delete_review_gtk3.py:1486 ../utils/delete_review_gtk3.py:1508
+#: ../utils/modify_review_gtk3.py:1486 ../utils/modify_review_gtk3.py:1508
+#: ../utils/report_review_gtk3.py:1486 ../utils/report_review_gtk3.py:1508
+#: ../utils/submit_review_gtk3.py:1486 ../utils/submit_review_gtk3.py:1508
+#: ../utils/submit_usefulness_gtk3.py:1486
+#: ../utils/submit_usefulness_gtk3.py:1508
+msgid "Missing review-id argument"
 msgstr ""

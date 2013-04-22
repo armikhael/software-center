@@ -1,0 +1,65 @@
+Source: software-center
+Section: gnome
+Priority: optional
+Maintainer: Julian Andres Klode <jak@debian.org>
+Build-Depends: debhelper (>= 7.0.50),
+               dpkg-dev (>= 1.15.1~),
+               lsb-release,
+               gettext,
+               intltool,
+               po4a,
+               python,
+               python-distutils-extra,
+               python-setuptools,
+               python-scour
+Standards-Version: 3.9.1
+X-Python-Version: >= 2.7
+Vcs-Bzr: http://bazaar.launchpad.net/~juliank/software-center/debian/
+Homepage: https://launchpad.net/software-center
+
+Package: software-center
+Architecture: all
+Depends: ${python:Depends},
+         ${misc:Depends},
+         app-install-data (>= 0.4.0),
+         aptdaemon (>= 0.40),
+         humanity-icon-theme|gnome-icon-theme,
+         gir1.2-glib-2.0 (>= 1.31),
+         gir1.2-gtk-3.0,
+         gir1.2-gmenu-3.0 (>= 3.1.5),
+         gir1.2-webkit-3.0,
+         python-gobject (>= 3.0),
+         python-gobject-cairo,
+         lsb-release,
+         python-xapian,
+         python-apt (>= 0.7.93.1),
+         python-aptdaemon (>= 0.40),
+         python-aptdaemon.gtk3widgets,
+         python-dbus,
+         python-defer,
+         policykit-1,
+         policykit-1-gnome | policykit-1-kde,
+         python-xdg,
+         python-lazr.restfulclient,
+         synaptic,
+Recommends: lsb-release, 
+            gir1.2-launchpad-integration-3.0, 
+            apt-xapian-index (>= 0.38ubuntu1), 
+            update-notifier, 
+            software-properties-gtk,
+            sessioninstaller, 
+            zeitgeist-core,
+            lzma
+Conflicts: gnome-app-install (<< 1), oneconf (<< 0.2.6.1)
+Replaces: gnome-app-install
+Provides: gnome-app-install
+Description: Utility for browsing, installing, and removing software
+ The Software Center lets you browse and install thousands of 
+ free applications available for your System. You can view available 
+ software by category, or search quickly by name or description. 
+ You can also examine the software already installed, and remove items
+ you no longer need.
+ .
+ To install or remove software using USC, you need administrator access
+ on the computer.
+

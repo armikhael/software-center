@@ -1,0 +1,58 @@
+  <legalnotice id="legalnotice">
+	<para>
+	  Permissão é concedida para copiar, distribuir e/ou modificar este documento
+sob os termos da GNU Free Documentation License (GFDL), Versão 1.1 ou
+qualquer versão mais recente publicada pela Free Software Foundation sem
+seções invariantes e sem textos de capa ou contracapa.  Você pode encontrar
+uma cópia da GFDL nesse <ulink type="help" url="ghelp:fdl">link</ulink> ou
+no arquivo COPYING-DOCS distribuído com este manual.
+         </para>
+         <para> Este manual é parte da coleção de manuais do GNOME distribuídos sob a GFDL.
+Se você quiser distribuir este manual separadamente da coleção, você pode
+fazê-lo juntando uma cópia da licença ao manual, como descrito na seção 6 da
+licença.
+	</para>
+
+	<para>
+	  Muitos nomes usados pelas companhias para distinguir os seus produtos e
+serviços são reivindicados como marca registrada. Onde esses nomes
+aparecerem em qualquer documento do GNOME e os membros do Projeto de
+Documentação do GNOME estiverem cientes dessas marcas registradas, eles
+estarão em letras maiúsculas ou com as letras iniciais em maiúsculas.
+	</para>
+
+	<para>
+	  O DOCUMENTO E VERSÕES MODIFICADAS DO DOCUMENTO SÃO FORNECIDOS NOS TERMOS DA
+LICENÇA DE DOCUMENTAÇÃO LIVRE GNU ("GNU FREE DOCUMENTATION LICENSE") COM
+ENTENDIMENTOS POSTERIORES QUE: <orderedlist>
+		<listitem>
+		  <para>O DOCUMENTO É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA
+OU IMPLÍCITA, INCLUINDO, SEM LIMITAÇÃO, AS GARANTIAS DE QUE O DOCUMENTO OU
+VERSÃO MODIFICADA DO MESMO ESTÁ LIVRE DE DEFEITOS, É COMERCIÁVEL, PRÓPRIO
+PARA UM FIM ESPECÍFICO OU NÃO INFRATOR. TODO RISCO QUANTO À QUALIDADE,
+PRECISÃO E DESEMPENHO DO DOCUMENTO OU VERSÃO MODIFICADA É SEU. SE ALGUM
+DOCUMENTO OU VERSÃO MODIFICADA MOSTRAR-SE COM DEFEITOS EM QUALQUER CASO,
+VOCÊ (NÃO O ESCRITOR INICIAL, AUTOR OU QUALQUER CONTRIBUINTE) ASSUME O CUSTO
+DE QUALQUER MANUTENÇÃO NECESSÁRIA, REPAROS OU CORREÇÕES. ESTE AVISO DE
+GARANTIA CONSTITUI PARTE ESSENCIAL DA LICENÇA. NENHUM USO DE QUALQUER
+DOCUMENTO OU VERSÃO MODIFICADA DO DOCUMENTO ESTÁ AUTORIZADO EXCETO DE ACORDO
+COM ESTA CONDIÇÃO; E
+		  </para>
+		</listitem>
+		<listitem>
+		  <para>EM HIPÓTESE ALGUMA E SOB NENHUMA TEORIA JURÍDICA, MESMO EM DELITO (INCLUINDO
+NEGLIGÊNCIA), CONTRATO OU NÃO, O AUTOR, ESCRITOR INICIAL, QUALQUER
+CONTRIBUINTE OU QUALQUER DISTRIBUIDOR DO DOCUMENTO OU VERSÃO MODIFICADA DO
+DOCUMENTO OU QUALQUER FORNECEDOR DE UMA DESSAS PARTES, SERÁ RESPONSÁVEL POR
+QUALQUER PESSOA POR QUAISQUER DANOS DIRETOS, INDIRETOS, ESPECIAIS,
+INCIDENTAIS OU DE QUALQUER TIPO INCLUINDO, SEM LIMITAÇÃO, DANOS PARA A PERDA
+DE BOA VONTADE, PARADA DE TRABALHO, FALHA DE COMPUTADOR OU QUAISQUER OUTROS
+DANOS OU PREJUÍZOS DECORRENTES DE OU EM RELAÇÃO AO USO DO DOCUMENTO E VERSÃO
+MODIFICADA DO DOCUMENTO, MESMO QUE ESSA PARTE TENHA SIDO INFORMADA DA
+POSSIBILIDADE DE TAIS DANOS.
+		  </para>
+		</listitem>
+	  </orderedlist>
+	</para>
+  </legalnotice>
+

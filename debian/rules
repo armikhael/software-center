@@ -2,24 +2,28 @@
 share:=usr/share/software-center
 
 %:
-	dh --with=python-central $@
+	dh $@ --with=python2,scour
 
 override_dh_auto_clean:
-	#python setup.py build_i18n
+	python setup.py build_i18n
 	dh_auto_clean
 
 # Install the modules in a private directory, as our applications are the
 # only ones using them.
 override_dh_auto_install:
 	dh_auto_install -- --install-lib /usr/share/software-center
-	rm -r debian/tmp/usr/share/software-center/*.egg-info
+	rm -r debian/software-center/usr/share/software-center/*.egg-info
 	# Move the scripts to $(SHARE) and relink them again later.
-	mv debian/tmp/usr/*bin/* debian/tmp/$(share)
-	rmdir debian/tmp/usr/*bin
-
+	mv debian/software-center/usr/*bin/* debian/software-center/$(share)
+	rmdir debian/software-center/usr/*bin
+	mkdir -p debian/software-center/usr/share/pixmaps
+	cp debian/img/theme-icons-categoria/* debian/software-center/usr/share/pixmaps
+	cp debian/img/banner/* debian/software-center/usr/share/software-center/default_banner
 
 override_dh_install:
 	dh_install --fail-missing
+
+	dh_installmime -i
 
 	dh_link $(share)/software-center usr/bin/software-center \
 	        $(share)/update-software-center usr/sbin/update-software-center
