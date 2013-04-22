@@ -1,5 +1,6 @@
 software-center (5.1.2debian3.1canaima1) unstable; urgency=low
 
+  * [b4801e2] Desaplicando parches.
   * [24db2f6] Modificando formato de fuentes a 3.0 (quilt)
   * [fbe76bd] Agregando excepción de binarios dentro de la carpeta debian
   * [fb0b7c3] removiendo archivos de construccion
