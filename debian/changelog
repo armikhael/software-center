@@ -1,3 +1,10 @@
+software-center (5.1.2debian3.1canaima1) unstable; urgency=low
+
+  * [fb0b7c3] removiendo archivos de construccion
+  * [4673ac6] Eliminando archivos de quilt
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Mon, 22 Apr 2013 15:25:25 -0430
+
 software-center (5.1.2debian3.1) unstable; urgency=medium
 
   * Non-maintainer upload.
