@@ -2,6 +2,7 @@
 <Menu>
   <Menu>
     <Name>What’s New</Name>
+    <Name xml:lang="es">Lo más reciente</Name>
     <SCIcon>gtk-about</SCIcon>
     <Flags>
       <Flag>available-only</Flag>

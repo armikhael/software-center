@@ -2,6 +2,7 @@
 <Menu>
   <Menu>
     <Name>Top Rated</Name>
+    <Name xml:lang="es">Los mejor valorados</Name>
     <SCIcon>gtk-about</SCIcon>
     <Flags>
       <Flag>available-only</Flag>

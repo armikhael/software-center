@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-22 15:34-0430\n"
+"POT-Creation-Date: 2013-04-22 15:40-0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgstr ""
 #. aquired for purchase in utils/submit_review.py
 #. the other one in softwarecenter/app.py
 #: ../data/ubuntu-software-center.desktop.in.h:1
-#: ../softwarecenter/distro/Ubuntu.py:67 ../softwarecenter/ui/gtk3/app.py:703
+#: ../softwarecenter/distro/Ubuntu.py:67 ../softwarecenter/ui/gtk3/app.py:704
 msgid "Ubuntu Software Center"
 msgstr ""
 
@@ -643,7 +643,7 @@ msgid ""
 "the Ubuntu community."
 msgstr ""
 
-#: ../softwarecenter/enums.py:28 ../softwarecenter/ui/gtk3/app.py:651
+#: ../softwarecenter/enums.py:28 ../softwarecenter/ui/gtk3/app.py:652
 msgid ""
 "To reinstall previous purchases, sign in to the Ubuntu Single Sign-On "
 "account you used to pay for them."
@@ -976,12 +976,12 @@ msgid "Please re-install the 'software-center' package."
 msgstr ""
 
 #. TRANSLATORS: this is the help menuitem label, e.g. Ubuntu Software Center _Help
-#: ../softwarecenter/ui/gtk3/app.py:317
+#: ../softwarecenter/ui/gtk3/app.py:318
 #, python-format
 msgid "%s _Help"
 msgstr ""
 
-#: ../softwarecenter/ui/gtk3/app.py:704
+#: ../softwarecenter/ui/gtk3/app.py:705
 msgid "Ubuntu Software Center Store"
 msgstr ""
 
@@ -1533,12 +1533,12 @@ msgstr ""
 msgid "More"
 msgstr ""
 
-#: ../softwarecenter/ui/gtk3/widgets/exhibits.py:83
-#: ../softwarecenter/ui/gtk3/widgets/exhibits.py:88
+#: ../softwarecenter/ui/gtk3/widgets/exhibits.py:90
+#: ../softwarecenter/ui/gtk3/widgets/exhibits.py:95
 msgid "Our star apps"
 msgstr ""
 
-#: ../softwarecenter/ui/gtk3/widgets/exhibits.py:89
+#: ../softwarecenter/ui/gtk3/widgets/exhibits.py:96
 msgid "Come and explore our favourites"
 msgstr ""
 

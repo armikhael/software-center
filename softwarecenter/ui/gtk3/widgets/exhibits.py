@@ -79,8 +79,15 @@ class FeaturedExhibit(object):
 
     def __init__(self):
         self.id = 0
-        self.package_names = "armagetronad,calibre,cheese,homebank,stellarium,gimp,inkscape,blender,audacity,gufw,frozen-bubble,fretsonfire,moovida,liferea,arista,gtg,freeciv-client-gtk,openshot,supertuxkart,tumiki-fighters,tuxpaint,webservice-office-zoho"
-        self.title_translated = _("Our star apps")
+        self.package_names = ("virtualbox-qt,neverball,nautilus-dropbox,flashplugin-nonfree,"
+                              "0ad,vlc,darktable,kmag,ekiga,planner,canaima-desarrollador,"
+                              "canaima-semilla,inkscape,geany,emesene,deluge-gtk,sound-juicer,"
+                              "cheese,openproj,dia,gnome-bluetooth,armagetronad,calibre,cheese,"
+                              "homebank,stellarium,gimp,inkscape,blender,audacity,gufw,frozen-bubble,"
+                              "fretsonfire-game,moovida,liferea,arista,gtg,freeciv-client-gtk,"
+                              "openshot,supertuxkart,tumiki-fighters,tuxpaint,terminator")
+        
+	self.title_translated = _("Our star apps")
         self.published = True
         self.banner_url = "file:%s" % (os.path.abspath(os.path.join(softwarecenter.paths.datadir, "default_banner/fallback.png")))
         self.html = EXHIBIT_HTML % { 
@@ -109,7 +116,7 @@ class _HtmlRenderer(Gtk.OffscreenWindow):
         settings = self.view.get_settings()
         settings.set_property("enable-java-applet", False)
         settings.set_property("enable-plugins", False)
-        settings.set_property("enable-scripts", False)
+        settings.set_property("enable-scripts", True)
         self.view.set_size_request(-1, ExhibitBanner.MAX_HEIGHT)
         self.add(self.view)
         self.show_all()
@@ -126,7 +133,7 @@ class _HtmlRenderer(Gtk.OffscreenWindow):
         if view.get_property("load-status") ==  WebKit.LoadStatus.FINISHED:
             # this needs to run with a timeout because otherwise the 
             # status is emited before the offscreen image is finihsed
-            GObject.timeout_add(1, lambda: self.emit("render-finished"))
+            GObject.timeout_add(100, lambda: self.emit("render-finished"))
 
     def on_download_error(self, loader, exception, error):
         LOG.warn("download failed: '%s', '%s'" % (exception, error))
@@ -147,8 +154,7 @@ class _HtmlRenderer(Gtk.OffscreenWindow):
         scheme, netloc, server_path, para, query, frag = urlparse(
             self.exhibit.banner_url)
         html = html.replace(server_path, image_name)
-        self.view.load_string(html, "text/html", "UTF-8", 
-                              "file:%s/" % cache_dir)
+        self.view.open("http://bannersoftwarecenter.canaima.net.ve/")
         return
 
     def set_exhibit(self, exhibit):
