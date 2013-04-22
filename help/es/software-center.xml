@@ -75,10 +75,10 @@
 
   
   <chapter id="introduction">
-    <title>¿Qué es el Centro de Software?</title>
+    <title>What is Software Center?</title>
     <para>
-      Software Center es un catálogo virtual de miles de aplicaciones gratuitas y de
-otros software para hacer que su equipo sea más útil.
+      Software Center is a virtual catalog of thousands of free applications and
+other software to make your computer more useful.
     </para>
     <para>
       Puede encontrar software por categorías o buscando, y puede instalar un
@@ -92,9 +92,9 @@ eliminar todo lo que ya no necesite.
   <chapter id="installing">
     <title>Instalar software</title>
     <para>
-     Para instalar algo con el Centro de Software, usted necesita acceso de administrador y
-una conexión activa a Internet. (Si configura el sistema operativo en este
-equipo usted mismo, usted tiene acceso de administrador automáticamente.)
+      To install something with Software Center, you need administrator access and
+a working Internet connection.  (If you set up the operating system on this
+computer yourself, you have administrator access automatically.)
     </para>
     <orderedlist>
       <listitem>
@@ -113,8 +113,8 @@ información</guilabel>.
       </listitem>
       <listitem>
         <para>
-          Elija <guilabel>instalar </guilabel>. Puede que tenga que entrar con su
-contraseña de administrador antes que la instalación puede comenzar.
+          Choose <guilabel>Install</guilabel>.  You may need to enter the
+administrative password before the installation can begin.
         </para>
       </listitem>
     </orderedlist>
@@ -143,14 +143,18 @@ opciones pueden en cambio aparecer dentro de
 <menuchoice><guimenu>Sistema</guimenu>
 <guisubmenu>Administración</guisubmenu></menuchoice> ).
     </para>
-
+    <para>
+      To find out where to launch a new program, navigate to the screen for that
+program Software Center, if it is not still being displayed.  The menu
+location should be displayed on that screen, below the colored bar.
+    </para>
   </chapter>
   <chapter id="removing">
     <title id="removing-title">Desinstalar software</title>
     <para>
-      Para eliminar el software, necesita acceso de administrador. (Si se configura el
-del sistema operativo en este equipo usted mismo, usted tiene acceso de administrador
-automáticamente).
+      To remove software, you need administrator access.  (If you set up the
+operating system on this computer yourself, you have administrator access
+automatically.)
     </para>
     <orderedlist>
       <listitem>
@@ -161,8 +165,8 @@ que quiere desinstalar.
       </listitem>
       <listitem>
         <para>
-          Seleccione el elemento en la lista y elija <guilabel> Eliminar</guilabel>. Usted
-debe introducir la contraseña de administrador.
+          Select the item in the list, and choose <guilabel>Remove</guilabel>.  You
+may need to enter the administrative password.
         </para>
       </listitem>
     </orderedlist>
@@ -179,8 +183,8 @@ no estará disponible más.
     <title id="metapackages-title"
     >¿Por qué me pide desinstalar varios programas juntos?</title>
     <para>
-      A veces, si se intenta eliminar un elemento, el Centro de software le advertirá de que
-otros artículos serán eliminados también. Hay dos razones principales que esto sucede.
+      Sometimes if you try to remove one item, Software Center will warn you that
+other items will be removed too.  There are two main reasons this happens.
     </para>
     <itemizedlist>
       <listitem>
@@ -191,18 +195,18 @@ será eliminado normalmente también.
       </listitem>
       <listitem>
         <para>
-          Múltiples aplicaciones a veces se ofrece como un solo paquete. Si cualquiera de
-ellos están instalados, todos ellos están instalados. Y si alguno de ellos es
-eliminado, todos ellos se eliminan. El Centro de Software no puede eliminarlos
-de forma individual, ya que no tiene instrucciones sobre cómo separarlos.
+          Multiple applications are sometimes provided as a single package.  If any of
+them are installed, all of them are installed.  And if any of them are
+removed, all of them are removed.  Software Center cannot remove them
+individually, because it has no instructions on how to separate them.
         </para>
       </listitem>
     </itemizedlist>
     <para>
-    Puede utilizar el <guilabel>menú principal</guilabel> Configuración de ocultar no deseado
-elementos sin sacarlos de la computadora. En GNOME, puede encontrar
-<guilabel>Menú Principal</guilabel> dentro <menuchoice><guimenu>Sistema</guimenu>
-<guisubmenu>Preferencias</guisubmenu></menuchoice>.
+      You can use the <guilabel>Main Menu</guilabel> settings to hide unwanted
+items without removing them from the computer.  In GNOME, you can find
+<guilabel>Main Menu</guilabel> inside <menuchoice><guimenu>System</guimenu>
+<guisubmenu>Preferences</guisubmenu></menuchoice>.
     </para>
     <itemizedlist>
       <listitem>
@@ -283,28 +287,34 @@ menú</ulink></para>
 el software</guimenuitem></menuchoice> está seleccionado.
     </para>
     <para>
-      Si el software que desea todavía no está ahí, pero usted sabe que funciona
-en este sistema operativo, intente ponerse en contacto con los desarrolladores originales del
-programa para preguntar si pueden ayudar a hacer que esté disponible.
+      If the software you want still isn&#8217;t there, but you know that it runs
+on this operating system, try contacting the original developers of the
+program to ask if they can help make it available.
+    </para>
+    <para>
+      If a program is available for other operating systems but not for this one,
+let the developers know that you&#8217;re interested in running it on this
+operating system.
     </para>
   </chapter>
   <chapter id="bugs">
     <title id="bugs-title"
     >¿Y si un programa no funciona?</title>
     <para>
-      Con decenas de miles de programas en el Centro de Software, siempre hay
-la posibilidad de que algunos de ellos no funciona correctamente en el equipo.
+      With tens of thousands of programs in Software Center, there&#8217;s always
+the chance that a few of them won&#8217;t work properly on your computer.
     </para>
     <para>
-      Si está familiarizado con el informe de errores en el software, usted puede ayudar a cabo por
-informar del problema a los desarrolladores, consulte <ulink url="http://www.debian.org/Bugs/Reporting">
-</ulink> para obtener información sobre cómo
-informar de un bug en Debian. Si no ejecuta Debian, pero sobre la base de una distribución
-en él, usted puede ser que necesite para reportar el problema a otra dirección.
+      If you are familiar with reporting bugs in software, you can help out by
+reporting the problem to the developers, see <ulink
+url="http://www.debian.org/Bugs/Reporting">
+http://www.debian.org/Bugs/Reporting</ulink> for information on how to
+report a bug in Debian. If you do not run Debian, but a distribution based
+on it, you might need to report the bug to another address.
     </para>
     <para>
-      De lo contrario, busque a través del Centro de Software otro programa que haga lo que
-desee.
+      Otherwise, look through Software Center for another program to do what you
+want.
     </para>
     <itemizedlist>
      <listitem><para><xref linkend="removing" endterm="removing-title"/></para></listitem>

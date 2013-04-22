@@ -273,7 +273,6 @@ class SoftwareCenterAppGtk3(SimpleGtkbuilderApp):
                                  settings,
                                  Gdk.Screen.get_default(),
                                  datadir)
-	init_sc_css_provider(self.window_main, settings, Gdk.Screen.get_default(),datadir)
 
         # register view manager and create view panes/widgets
         self.view_manager = ViewManager(self.notebook_view, options)
