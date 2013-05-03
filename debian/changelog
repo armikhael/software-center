@@ -1,3 +1,10 @@
+software-center (5.1.2debian3.1canaima2) unstable; urgency=low
+
+  * [4b270d9] Agregando parche 05 Creando distro Canaima
+  * [0ac5a53] Cambiando distro en version.py de Debian a Canaima
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Fri, 03 May 2013 20:03:35 +0200
+
 software-center (5.1.2debian3.1canaima1) unstable; urgency=low
 
   * [cd9823f] Desactivando rutina de actualización de .POT en debian/rules.
