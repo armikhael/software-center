@@ -1,0 +1,13 @@
+Index: software-center/softwarecenter/ui/gtk3/views/appdetailsview_gtk.py
+===================================================================
+--- software-center.orig/softwarecenter/ui/gtk3/views/appdetailsview_gtk.py	2013-08-28 18:59:57.070177436 +0000
++++ software-center/softwarecenter/ui/gtk3/views/appdetailsview_gtk.py	2013-08-28 20:11:29.398107826 +0000
+@@ -318,7 +318,7 @@
+            PkgStates.REMOVING, PkgStates.UPGRADING, AppActions.APPLY)):
+             self.set_label(self.app_details.warning)
+ 
+-        sensitive = network_state_is_connected()
++        sensitive = True
+         self.button.set_sensitive(sensitive)
+         return
+         
