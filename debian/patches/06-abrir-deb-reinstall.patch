@@ -1,0 +1,14 @@
+Index: software-center/softwarecenter/ui/gtk3/app.py
+===================================================================
+--- software-center.orig/softwarecenter/ui/gtk3/app.py	2013-08-28 19:42:31.594136008 +0000
++++ software-center/softwarecenter/ui/gtk3/app.py	2013-08-28 19:44:40.798133913 +0000
+@@ -300,7 +300,8 @@
+                                             self.datadir)
+         #~ self.installed_pane.connect("installed-pane-created", self.on_installed_pane_created)
+         self.view_manager.register(self.installed_pane, ViewPages.INSTALLED)
+-
++	self.installed_pane.init_view()
++	
+         # history pane (not fully loaded at this point)
+         self.history_pane = HistoryPane(self.cache,
+                                         self.db,
