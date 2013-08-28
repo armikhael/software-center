@@ -1,3 +1,12 @@
+software-center (5.1.2debian3.1canaima3) unstable; urgency=low
+
+  * [614bfc8] version
+  * [aae1650] Agregando patch de abrir deb reinstall
+  * [f597f5e] Agregando parche para el internet
+  * [7c19839] Agregando iconos y quitando dependencia del synaptic
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Wed, 28 Aug 2013 20:15:12 +0000
+
 software-center (5.1.2debian3.1canaima2) unstable; urgency=low
 
   * [4b270d9] Agregando parche 05 Creando distro Canaima
