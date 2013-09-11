@@ -1,3 +1,11 @@
+software-center (5.1.2debian3.1canaima4) unstable; urgency=low
+
+  * [14eecaa] Version nueva
+  * [893d9ad] Agregando img a include-binaries
+  * [0a61588] Modificando parque distro Canaima para mostrar screenshots en las app
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Wed, 11 Sep 2013 15:56:41 -0430
+
 software-center (5.1.2debian3.1canaima3) unstable; urgency=low
 
   * [614bfc8] version
