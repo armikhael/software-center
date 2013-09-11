@@ -33,14 +33,14 @@ Index: software-center/softwarecenter/distro/Canaima.py
 +    IMPORTANT_METAPACKAGES = ("kde", "gnome", "gnome-desktop-environment")
 +
 +    # screenshot handling
-+    SCREENSHOT_THUMB_URL =  "http://screenshots.Canaima.net/thumbnail/%(pkgname)s"
-+    SCREENSHOT_LARGE_URL = "http://screenshots.Canaima.net/screenshot/%(pkgname)s"
++    SCREENSHOT_THUMB_URL =  "http://screenshots.debian.net/thumbnail/%(pkgname)s"
++    SCREENSHOT_LARGE_URL = "http://screenshots.debian.net/screenshot/%(pkgname)s"
 +    # the json description of the available screenshots
-+    SCREENSHOT_JSON_URL = "http://screenshots.Canaima.net/json/package/%s"
++    SCREENSHOT_JSON_URL = "http://screenshots.debian.net/json/package/%s"
 +
 +    REVIEWS_SERVER = ""
 +
-+    DEVELOPER_URL = "http://www.Canaima.org/devel/"
++    DEVELOPER_URL = "http://www.debian.org/devel/"
 +
 +    def get_distro_channel_name(self):
 +        """ The name in the Release file """
