@@ -1,3 +1,10 @@
+software-center (5.1.2debian3.1canaima5) unstable; urgency=low
+
+  * [1a16d54] Nueva Versión 5.1.2debian3.1canaima4
+  * [02376ca] Mejorando rutina de update-apt-xapian-index en el postinst
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Mon, 16 Sep 2013 14:55:04 -0430
+
 software-center (5.1.2debian3.1canaima4) unstable; urgency=low
 
   * [14eecaa] Version nueva
