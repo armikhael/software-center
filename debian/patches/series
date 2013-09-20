@@ -1,8 +1,7 @@
-06-abrir-deb-reinstall.patch
 01-exhibits.patch
 03-po-es.patch
 04-ayuda-xml.patch
 02-def-nueva-css.patch
-
+06-abrir-deb-reinstall.patch
 05-distro-canaima.patch
 07-install-deb-internet.patch
