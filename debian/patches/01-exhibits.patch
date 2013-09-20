@@ -1,8 +1,16 @@
-Index: software-center-5.1.2debian3.1/softwarecenter/ui/gtk3/widgets/exhibits.py
+Index: software-center/softwarecenter/ui/gtk3/widgets/exhibits.py
 ===================================================================
---- software-center-5.1.2debian3.1.orig/softwarecenter/ui/gtk3/widgets/exhibits.py	2013-04-10 14:10:11.851400246 -0430
-+++ software-center-5.1.2debian3.1/softwarecenter/ui/gtk3/widgets/exhibits.py	2013-04-10 14:19:16.519409572 -0430
-@@ -79,8 +79,15 @@
+--- software-center.orig/softwarecenter/ui/gtk3/widgets/exhibits.py	2013-09-20 14:11:24.737239203 -0430
++++ software-center/softwarecenter/ui/gtk3/widgets/exhibits.py	2013-09-20 14:13:42.705923355 -0430
+@@ -35,6 +35,7 @@
+ from softwarecenter.ui.gtk3.shapes import Circle
+ from softwarecenter.ui.gtk3.drawing import rounded_rect
+ from softwarecenter.ui.gtk3.utils import point_in
++from softwarecenter.netstatus import network_state_is_connected
+ import softwarecenter.paths
+ 
+ LOG=logging.getLogger(__name__)
+@@ -79,14 +80,21 @@
  
      def __init__(self):
          self.id = 0
@@ -20,7 +28,15 @@ Index: software-center-5.1.2debian3.1/softwarecenter/ui/gtk3/widgets/exhibits.py
          self.published = True
          self.banner_url = "file:%s" % (os.path.abspath(os.path.join(softwarecenter.paths.datadir, "default_banner/fallback.png")))
          self.html = EXHIBIT_HTML % { 
-@@ -109,7 +116,7 @@
+             'banner_url' : self.banner_url,
+-            'title' : _("Our star apps"),
+-            'subtitle' : _("Come and explore our favourites"),
++            'title' : _(" "),
++            'subtitle' : _(" "),
+       }
+         # we should extract this automatically from the html
+         #self.atk_name = _("Default Banner")
+@@ -109,7 +117,7 @@
          settings = self.view.get_settings()
          settings.set_property("enable-java-applet", False)
          settings.set_property("enable-plugins", False)
@@ -29,7 +45,7 @@ Index: software-center-5.1.2debian3.1/softwarecenter/ui/gtk3/widgets/exhibits.py
          self.view.set_size_request(-1, ExhibitBanner.MAX_HEIGHT)
          self.add(self.view)
          self.show_all()
-@@ -126,7 +133,7 @@
+@@ -126,7 +134,7 @@
          if view.get_property("load-status") ==  WebKit.LoadStatus.FINISHED:
              # this needs to run with a timeout because otherwise the 
              # status is emited before the offscreen image is finihsed
@@ -38,13 +54,16 @@ Index: software-center-5.1.2debian3.1/softwarecenter/ui/gtk3/widgets/exhibits.py
  
      def on_download_error(self, loader, exception, error):
          LOG.warn("download failed: '%s', '%s'" % (exception, error))
-@@ -147,8 +154,7 @@
+@@ -147,7 +155,11 @@
          scheme, netloc, server_path, para, query, frag = urlparse(
              self.exhibit.banner_url)
          html = html.replace(server_path, image_name)
 -        self.view.load_string(html, "text/html", "UTF-8", 
--                              "file:%s/" % cache_dir)
-+        self.view.open("http://bannersoftwarecenter.canaima.net.ve/")
++        sensitive = network_state_is_connected()
++        if sensitive == True:
++			self.view.open("http://bannersoftwarecenter.canaima.net.ve/")
++        else:
++			self.view.load_string(html, "text/html", "UTF-8", 
+                               "file:%s/" % cache_dir)
          return
  
-     def set_exhibit(self, exhibit):
