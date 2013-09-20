@@ -1,3 +1,11 @@
+software-center (5.1.2debian3.1canaima6) unstable; urgency=low
+
+  * [1337d98] Agregando versión 5.1.2debian3.1canaima5
+  * [075f95d] Cambiando orden de los patches
+  * [f08d89a] Agregando cambios al patche 01 para que se vea un banner sin internet
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Fri, 20 Sep 2013 14:17:40 -0430
+
 software-center (5.1.2debian3.1canaima5) unstable; urgency=low
 
   * [1a16d54] Nueva Versión 5.1.2debian3.1canaima4
