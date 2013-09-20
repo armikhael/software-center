@@ -1,5 +1,5 @@
 
-VERSION='5.1.2debian3.1canaima5'
+VERSION='5.1.2debian3.1canaima6'
 CODENAME='unstable'
 DISTRO='Canaima'
 RELEASE='4.0'
