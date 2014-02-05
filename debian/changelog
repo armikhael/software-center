@@ -1,3 +1,10 @@
+software-center (5.1.2debian3.1canaima7) unstable; urgency=low
+
+  * [037abba] Agregnado más aplicaciones en la sección Aplicaciones Estrellas
+  * [5c58496] Agregando img y desktop de las algunas aplicaciones
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Wed, 05 Feb 2014 20:08:48 +0000
+
 software-center (5.1.2debian3.1canaima6) unstable; urgency=low
 
   * [1337d98] Agregando versión 5.1.2debian3.1canaima5
