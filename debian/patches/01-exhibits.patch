@@ -19,10 +19,10 @@ Index: software-center/softwarecenter/ui/gtk3/widgets/exhibits.py
 +        self.package_names = ("virtualbox-qt,neverball,nautilus-dropbox,flashplugin-nonfree,"
 +                              "0ad,vlc,darktable,kmag,ekiga,planner,canaima-desarrollador,"
 +                              "canaima-semilla,inkscape,geany,emesene,deluge-gtk,sound-juicer,"
-+                              "cheese,openproj,dia,gnome-bluetooth,armagetronad,calibre,cheese,"
++                              "cheese,openproj,dia,gnome-bluetooth,armagetronad,calibre,cheese,tibisay,"
 +                              "homebank,stellarium,gimp,inkscape,blender,audacity,gufw,frozen-bubble,"
-+                              "fretsonfire-game,moovida,liferea,arista,gtg,freeciv-client-gtk,"
-+                              "openshot,supertuxkart,tumiki-fighters,tuxpaint,terminator")
++                              "fretsonfire-game,moovida,liferea,arista,gtg,freeciv-client-gtk,mango-paola,"
++                              "openshot,supertuxkart,tumiki-fighters,tuxpaint,terminator,prometeo-abc")
 +        
 +	self.title_translated = _("Our star apps")
          self.published = True
