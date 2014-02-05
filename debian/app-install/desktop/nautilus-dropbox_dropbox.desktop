@@ -1,0 +1,19 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+X-AppInstall-Package=nautilus-dropbox
+X-AppInstall-Popcon=20488
+X-AppInstall-Section=multiverse
+
+Name=Dropbox
+GenericName=File Synchronizer
+GenericName[es]=Sincronizar Archivos
+Comment=Sync your files across computers and to the web
+Comment[es]=Sincroniza tus archivos a través de las computadoras y de la red
+Exec=dropbox start -i
+Terminal=false
+Type=Application
+Icon=dropbox
+Categories=Network;FileTransfer;
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

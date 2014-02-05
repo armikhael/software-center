@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=mango-paola
+X-AppInstall-Popcon=117
+X-AppInstall-Section=main
+
+Version=1.0
+Name=Mango Paola
+Name[es]=Mango Paola
+GenericName=Mango Paola
+GenericName[es]=Mango Paola
+Comment=Juego de  ajedrez orientado al público infantil.
+Comment[es]=Juego de  ajedrez orientado al público infantil.
+Exec=mango-paola
+Icon=mango-paola
+Terminal=false
+Type=Application
+Categories=Game;StrategyGame;
+Name[es_VE]=Mango Paola

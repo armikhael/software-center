@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=prometeo-abc
+X-AppInstall-Popcon=117
+X-AppInstall-Section=main
+
+Version=1.0
+Name=Prometeo ABC
+Name[es]=Prometeo ABC
+GenericName=Prometeo ABC
+GenericName[es]=Prometeo ABC
+Comment=Abecedario en lengua de señas Venezolana.
+Comment[es]=Abecedario en lengua de señas Venezolana.
+Exec=prometeo-abc
+Icon=prometeo-abc
+Terminal=false
+Type=Application
+Categories=GTK;GNOME;Utility;Accessibilit;

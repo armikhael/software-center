@@ -16,9 +16,15 @@ override_dh_auto_install:
 	# Move the scripts to $(SHARE) and relink them again later.
 	mv debian/software-center/usr/*bin/* debian/software-center/$(share)
 	rmdir debian/software-center/usr/*bin
+	
 	mkdir -p debian/software-center/usr/share/pixmaps
+	mkdir -p debian/software-center/usr/share/app-install/desktop
+	mkdir -p debian/software-center/usr/sahre/app-install/img
+	
 	cp debian/img/theme-icons-categoria/* debian/software-center/usr/share/pixmaps
 	cp debian/img/banner/* debian/software-center/usr/share/software-center/default_banner
+	cp debian/app-install/desktop/* debian/software-center/usr/share/app-install/desktop
+	cp debian/app-install/img/* debian/software-center/usr/share/app-install/img
 
 override_dh_install:
 	dh_install --fail-missing
