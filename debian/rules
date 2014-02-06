@@ -19,7 +19,7 @@ override_dh_auto_install:
 	
 	mkdir -p debian/software-center/usr/share/pixmaps
 	mkdir -p debian/software-center/usr/share/app-install/desktop
-	mkdir -p debian/software-center/usr/sahre/app-install/img
+	mkdir -p debian/software-center/usr/share/app-install/img
 	
 	cp debian/img/theme-icons-categoria/* debian/software-center/usr/share/pixmaps
 	cp debian/img/banner/* debian/software-center/usr/share/software-center/default_banner
