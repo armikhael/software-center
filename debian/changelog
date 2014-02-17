@@ -1,3 +1,9 @@
+software-center (5.1.2debian3.1canaima8) unstable; urgency=low
+
+  * [9eb39c5] Cambio de ruta
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Mon, 17 Feb 2014 19:22:14 +0000
+
 software-center (5.1.2debian3.1canaima7) unstable; urgency=low
 
   * [037abba] Agregnado más aplicaciones en la sección Aplicaciones Estrellas
